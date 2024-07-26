@@ -1,10 +1,10 @@
 <!-- LAYOUT FOR ALL APP PAGES -->
 <script lang="ts">
 	import '../../app.css';
-    import { page } from '$app/stores';
-    import { removePrependSlash } from '$lib/utils/pathnamePipe.ts';
+	import { page } from '$app/stores';
+	import { removePrependSlash } from '$lib/utils/pathnamePipe.ts';
 	import AppSidebar from '$lib/components/AppSidebar.svelte';
-    import ProjectSection from '$lib/sections/ProjectSection.svelte';
+	// import ProjectSection from '$lib/sections/ProjectSection.svelte';
 </script>
 
 <div class="h-full">
@@ -15,17 +15,22 @@
 				<AppSidebar />
 				<div class="flex flex-1 flex-col">
 					<div
-						class="flex min-h-[3.5rem] max-h-12 items-center justify-between py-2 px-5 border-b border-default"
+						class="flex min-h-[3.5rem] max-h-12 items-center justify-between py-4 px-5 border-b border-default"
 					>
 						<div class="-ml-2 flex items-center text-md">
 							<button
-								class="text-gray-1100 block px-2 py-1 text-lg leading-5 focus:bg-gray-100 focus:text-gray-900 focus:outline-none capitalize"
-								>{removePrependSlash($page.url.pathname)}</button
+								class="text-gray-1100 block px-2 py-4 text-lg leading-5 focus:bg-gray-100 focus:text-gray-900 focus:outline-none capitalize"
 							>
+								{#if $page.url.pathname == '/dashboard'}
+									Welcome!
+								{:else}
+									{removePrependSlash($page.url.pathname)}
+								{/if}
+							</button>
 						</div>
 						<div class="flex items-center gap-x-2">
 							<span
-								class="relative justify-center cursor-pointer inline-flex items-center space-x-2 text-center font-regular ease-out duration-200 rounded-md outline-none transition-all outline-0 focus-visible:outline-4 focus-visible:outline-offset-1 border text-foreground bg-transparent border-strong hover:border-foreground-muted focus-visible:outline-border-strong data-[state=open]:border-stronger data-[state=open]:outline-border-strong text-xs px-2.5 py-1 h-[26px] hidden md:flex"
+								class="relative justify-center cursor-pointer inline-flex items-center space-x-2 text-center font-regular ease-out duration-200 rounded-md outline-none transition-all outline-0 focus-visible:outline-4 focus-visible:outline-offset-1 border text-foreground bg-transparent border-strong hover:border-foreground-muted focus-visible:outline-border-strong data-[state=open]:border-stronger data-[state=open]:outline-border-strong text-xs px-2.5 py-4 h-[26px] hidden md:flex"
 								data-size="tiny"
 								type="button"
 								aria-haspopup="dialog"
@@ -35,7 +40,7 @@
 							><button
 								data-size="tiny"
 								type="button"
-								class="relative justify-center cursor-pointer inline-flex items-center space-x-2 text-center font-regular ease-out duration-200 rounded-md outline-none transition-all outline-0 focus-visible:outline-4 focus-visible:outline-offset-1 border text-foreground hover:bg-surface-300 shadow-none focus-visible:outline-border-strong data-[state=open]:bg-surface-300 data-[state=open]:outline-border-strong border-transparent text-xs py-1 h-[26px] group px-1"
+								class="relative justify-center cursor-pointer inline-flex items-center space-x-2 text-center font-regular ease-out duration-200 rounded-md outline-none transition-all outline-0 focus-visible:outline-4 focus-visible:outline-offset-1 border text-foreground hover:bg-surface-300 shadow-none focus-visible:outline-border-strong data-[state=open]:bg-surface-300 data-[state=open]:outline-border-strong border-transparent text-xs py-4 h-[26px] group px-1"
 								aria-haspopup="dialog"
 								aria-expanded="false"
 								aria-controls="radix-:R2kqcpm:"
@@ -72,7 +77,7 @@
 									data-size="tiny"
 									type="button"
 									id="help-popover-button"
-									class="relative justify-center cursor-pointer inline-flex items-center space-x-2 text-center font-regular ease-out duration-200 rounded-md outline-none transition-all outline-0 focus-visible:outline-4 focus-visible:outline-offset-1 border text-foreground hover:bg-surface-300 shadow-none focus-visible:outline-border-strong data-[state=open]:bg-surface-300 data-[state=open]:outline-border-strong border-transparent text-xs py-1 h-[26px] px-1"
+									class="relative justify-center cursor-pointer inline-flex items-center space-x-2 text-center font-regular ease-out duration-200 rounded-md outline-none transition-all outline-0 focus-visible:outline-4 focus-visible:outline-offset-1 border text-foreground hover:bg-surface-300 shadow-none focus-visible:outline-border-strong data-[state=open]:bg-surface-300 data-[state=open]:outline-border-strong border-transparent text-xs py-4 h-[26px] px-1"
 									><div class="[&amp;_svg]:h-[14px] [&amp;_svg]:w-[14px] text-foreground-muted">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -95,10 +100,10 @@
 							</div>
 						</div>
 					</div>
-					<ProjectSection />
+					<!-- <ProjectSection /> -->
+                     <slot></slot>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-

@@ -1,1 +1,1 @@
-<h1 class="p-32 text-3xl">Dashboard</h1>
+<p class="p-32">Welcome to AppName's Dashboard</p>
