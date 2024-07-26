@@ -16,7 +16,7 @@
 							>
 								<span
 									class="leading-[0.875] pb-3 font-heading-normal text-transparent bg-clip-text bg-gradient-to-br from-[#e1e1e1] to-[#b3b3b3] block md:ml-0"
-									>secure OpStats reporting,</span
+									>Secure OpStats reporting,</span
 								>
 								<span
 									class="leading-[0.875] pb-3 font-heading-normal text-transparent bg-clip-text bg-gradient-to-br from-[#3ECF8E] via-[#3ECF8E] to-[#3ecfb2] block md:ml-0"
@@ -26,10 +26,8 @@
 							<p
 								class="pt-2 text-foreground font-display-medium my-3 text-sm sm:mt-5 lg:mb-0 sm:text-base lg:text-lg"
 							>
-								FormHost is an online alternative to spreadsheet based data collection.<!-- -->
-								<br class="hidden md:block" />Start your project with a Postgres database,
-								Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and
-								Vector embeddings.
+							WebApp is an online alternative to spreadsheet based data collection.<!-- -->
+								<br class="hidden md:block" />Start your project with the confidence that it's locally saved automatically until you're ready to submit. When necessary, receive notifications through WebApp, too
 							</p>
 						</div>
 						<div class="flex items-center gap-2">
@@ -65,7 +63,7 @@
 						</div>
 						<div class="flex text-center flex-col items-center mt-4 lg:mt-6">
 							<small class="small !text-foreground-light"
-								>Works seamlessly with 20+ frameworks</small
+								>Claim about the superiority of WebApp</small
 							>
 							<div
 								class="w-full sm:max-w-lg mt-4 md:mt-3 lg:ml-0 flex flex-wrap items-center justify-center gap-1 xs:gap-2 sm:flex-nowrap"

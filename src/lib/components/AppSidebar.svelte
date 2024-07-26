@@ -7,11 +7,11 @@
 	id="with-sidebar"
 	class="h-[100vh] min-h-full bg-[#f8f8f8] hide-scrollbar w-64 overflow-auto border-r border-nuetral-200 dark:border-nuetral-700"
 >
-	<a href="/dashboard" class="mb-2 bg=[#64d8a4]">
+	<a href="/dashboard" class="mb-2">
 		<div
 			class={`flex min-h-[${height}] max-h-12 items-center border-b px-6 border-nuetral-200 dark:border-nuetral-700`}
 		>
-			<h3 class="mb-0 text-2xl truncate font-medium text-[#64d8a4] font-heading-medium" title="Dashboard">
+			<h3 class="mb-0 text-2xl truncate font-medium text-[#39c294] font-heading-medium" title="Dashboard">
 				Dashboard
 			</h3>
 		</div>
@@ -54,6 +54,7 @@
 						>
 					</ul>
 				</div>
+				<a href="/">
 				<div class="border-b py-5 px-6 border-nuetral-200 dark:border-nuetral-700">
 					<div class=" flex space-x-3 mb-2 font-normal">
 						<h4><span class="text-lg text-neutral-800 w-full">Account</span></h4>
@@ -89,6 +90,7 @@
 						>
 					</ul>
 				</div>
+			</a>
 				<div class="border-b py-5 px-6 border-nuetral-200 dark:border-nuetral-700">
 					<div class=" flex space-x-3 mb-2 font-normal">
 						<h4><span class="text-lg text-neutral-800 w-full">Documentation</span></h4>
@@ -137,6 +139,7 @@
 						>
 					</ul>
 				</div>
+				<a class="block" target="_self" href="/">
 				<div class="border-b py-5 px-6 border-nuetral-200 dark:border-nuetral-700">
 					<ul class="space-y-1">
 						<li
@@ -164,6 +167,7 @@
 						</li>
 					</ul>
 				</div>
+			</a>
 			</ul>
 		</div>
 	</div>

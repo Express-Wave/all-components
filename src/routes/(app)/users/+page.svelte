@@ -1,7 +1,7 @@
-<div class="p-8 bh-inherit">
+<!-- <div class="p-8 bh-inherit"> -->
 	<div class="relative">
 		<div class="transition-opacity duration-300">
-			<div class="bg-surface-100 rounded-md border shadow-sm overflow-hidden mb-8">
+			<div class="bg-surface-100 rounded-md border shadow-sm overflow-hidden mb-8 bg-white">
 				<div class="bg-surface-100 border-b border-muted flex items-center px-6 py-4">
 					<h5 class="mb-0">Account Information</h5>
 				</div>
@@ -42,4 +42,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+<!-- </div> -->

@@ -4,10 +4,9 @@
 	import { page } from '$app/stores';
 	import { removePrependSlash } from '$lib/utils/pathnamePipe.ts';
 	import AppSidebar from '$lib/components/AppSidebar.svelte';
-	// import ProjectSection from '$lib/sections/ProjectSection.svelte';
 </script>
 
-<div class="h-full">
+<div class="h-full" style="min-height: 100vh; --dot-bg: hsl(240, 10%, 3.9%); --dot-color: hsl(0, 0%, 99%); --dot-size: 1px; --dot-space: 18px; background: linear-gradient(90deg, hsl(0, 0%, 99%) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space), linear-gradient(hsl(0, 0%, 99%) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space), hsl(240, 3.8%, 46.1%); background-attachment: fixed;">
 	<div class="min-h-full flex flex-col">
 		<div class="flex-none"></div>
 		<div class="h-screen min-h-[0px] basis-0 flex-1">
@@ -15,9 +14,9 @@
 				<AppSidebar />
 				<div class="flex flex-1 flex-col">
 					<div
-						class="flex min-h-[3.5rem] max-h-12 items-center justify-between py-4 px-5 border-b border-default"
+						class="flex min-h-[3.5rem] max-h-12 items-center justify-between py-4 px-5 border-b border-default backdrop-blur-sm"
 					>
-						<div class="-ml-2 flex items-center text-md">
+						<div class="ml-2 flex items-center text-md ">
 							<button
 								class="text-gray-1100 block px-2 py-4 text-lg leading-5 focus:bg-gray-100 focus:text-gray-900 focus:outline-none capitalize"
 							>
@@ -30,7 +29,7 @@
 						</div>
 						<div class="flex items-center gap-x-2">
 							<span
-								class="relative justify-center cursor-pointer inline-flex items-center space-x-2 text-center font-regular ease-out duration-200 rounded-md outline-none transition-all outline-0 focus-visible:outline-4 focus-visible:outline-offset-1 border text-foreground bg-transparent border-strong hover:border-foreground-muted focus-visible:outline-border-strong data-[state=open]:border-stronger data-[state=open]:outline-border-strong text-xs px-2.5 py-4 h-[26px] hidden md:flex"
+								class="relative justify-center cursor-pointer inline-flex items-center space-x-2 text-center font-regular ease-out duration-200 rounded-md outline-none transition-all outline-0 focus-visible:outline-4 focus-visible:outline-offset-1 border text-foreground bg-transparent border-strong hover:border-foreground-muted focus-visible:outline-border-strong data-[state=open]:border-stronger data-[state=open]:outline-border-strong text-xs py-4 px-6 h-[26px] hidden md:flex"
 								data-size="tiny"
 								type="button"
 								aria-haspopup="dialog"
@@ -100,8 +99,9 @@
 							</div>
 						</div>
 					</div>
-					<!-- <ProjectSection /> -->
+					<div class="p-8 bh-inherit">
                      <slot></slot>
+					</div>
 				</div>
 			</div>
 		</div>
