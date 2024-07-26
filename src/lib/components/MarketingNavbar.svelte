@@ -53,20 +53,6 @@
 								<a
 									class="group/menu-item flex items-center text-sm hover:text-foreground select-none gap-3 rounded-md p-2 leading-none no-underline outline-none focus-visible:ring-2 focus-visible:ring-foreground-lighter group-hover:bg-transparent text-foreground focus-visible:text-brand-link"
 									data-radix-collection-item=""
-									href="/pricing"
-									><div class="flex flex-col justify-center">
-										<div class="flex items-center gap-1">
-											<p class="leading-snug text-foreground group-hover/menu-item:text-brand-link">
-												Pricing
-											</p>
-										</div>
-									</div></a
-								>
-							</li>
-							<li class="text-sm font-medium">
-								<a
-									class="group/menu-item flex items-center text-sm hover:text-foreground select-none gap-3 rounded-md p-2 leading-none no-underline outline-none focus-visible:ring-2 focus-visible:ring-foreground-lighter group-hover:bg-transparent text-foreground focus-visible:text-brand-link"
-									data-radix-collection-item=""
 									href="/docs"
 									><div class="flex flex-col justify-center">
 										<div class="flex items-center gap-1">
