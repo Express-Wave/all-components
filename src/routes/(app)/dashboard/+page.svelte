@@ -1,0 +1,1 @@
+<h1 class="p-32 text-3xl">Dashboard</h1>

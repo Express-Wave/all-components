@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'display-normal';
+    src: url('/fonts/GeneralSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'display-normal', sans-serif;
+}
+
+@font-face {
+    font-family: 'display-medium';
+    src: url('/fonts/GeneralSans-Medium.woff2') format('woff2');
+    font-weight: medium;
+    font-style: medium;
+}
+
+body {
+    font-family: 'display-normal', sans-serif;
+}
+
+/* ------------------------------------------------------------------ */
+
+@font-face {
+    font-family: 'heading-normal';
+    src: url('/fonts/Quilon-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3, h4 {
+    font-family: 'heading-normal', sans-serif;
+}
+
+
+
+@font-face {
+    font-family: 'heading-medium';
+    src: url('/fonts/Quilon-Medium.woff2') format('woff2');
+    font-weight: medium;
+    font-style: medium;
+}
+
+h1, h2 {
+    font-family: 'heading-medium', sans-serif;
+}
