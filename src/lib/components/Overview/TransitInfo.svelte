@@ -95,7 +95,7 @@
 							type="text"
 							id="website-admin"
 							class="rounded-none rounded-e-lg bg- border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-							placeholder="Jack Traven"
+							placeholder="manager@waketransit.gov"
 						/>
 					</div>
 				</td>
@@ -123,10 +123,10 @@
 							>
 						</span>
 						<input
-							type="text"
-							id="website-admin"
+							type="tel"
+							id="phone-number"
 							class="rounded-none rounded-e-lg bg- border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-							placeholder="Jack Traven"
+							placeholder="919-212-7005"
 						/>
 					</div>
 				</td>
@@ -154,23 +154,23 @@
 							>
 						</span>
 						<input
-							type="text"
-							id="website-admin"
+							 type="tel"
+							id="fax"
 							class="rounded-none rounded-e-lg bg- border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-							placeholder="Jack Traven"
+							placeholder="919-212-7000"
 						/>
 					</div>
 				</td>
 			</tr>
 			<!-- DATE -->
-			<tr
+			<!-- <tr
 				class="border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600 mb-8"
 			>
 				<th
 					scope="row"
 					class="px-6 py-8 font-medium text-gray-900 whitespace-nowrap dark:text-white max-w-[100px]"
 				>
-					Date
+					Submission Date
 				</th>
 				<td class="" colspan="3">
 					<div class="flex">
@@ -192,7 +192,7 @@
 						/>
 					</div>
 				</td>
-			</tr>
+			</tr> -->
 		</tbody>
 	</table>
 </div>

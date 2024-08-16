@@ -37,7 +37,8 @@
 								class="relative justify-center cursor-pointer inline-flex items-center space-x-2 text-center font-regular ease-out duration-200 rounded-md outline-none transition-all outline-0 focus-visible:outline-4 focus-visible:outline-offset-1 border bg-brand-400 dark:bg-brand-500 hover:bg-brand/80 dark:hover:bg-brand/50 border-brand-500/75 dark:border-brand/30 hover:border-brand-600 dark:hover:border-brand focus-visible:outline-brand-600 data-[state=open]:bg-brand-400/80 dark:data-[state=open]:bg-brand-500/80 data-[state=open]:outline-brand-600 text-sm px-4 py-2 h-[38px] text-white"
 								href="/dashboard"
 								><span class="truncate capitalize text-slate-900 dark:text-white">Get started</span></a
-							><a
+							>
+							<!-- <a
 								data-size="medium"
 								type="button"
 								class="relative justify-center cursor-pointer inline-flex items-center space-x-2 text-center font-regular ease-out duration-200 rounded-md outline-none transition-all outline-0 focus-visible:outline-4 focus-visible:outline-offset-1 border text-foreground bg-alternative dark:bg-muted hover:bg-selection border-strong hover:border-stronger focus-visible:outline-brand-600 data-[state=open]:bg-selection data-[state=open]:outline-brand-600 data-[state=open]:border-button-hover text-sm px-4 py-2 h-[38px]"
@@ -59,7 +60,7 @@
 									>
 								</div>
 								<span class="truncate">Documentation</span></a
-							>
+							> -->
 						</div>
 						<div class="flex text-center flex-col items-center mt-4 lg:mt-6">
 							<small class="small !text-foreground-light"

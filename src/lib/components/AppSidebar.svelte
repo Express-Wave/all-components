@@ -19,7 +19,7 @@
 	aria-label="Sidebar"
 	aria-orientation="vertical"
 	aria-labelledby="options-menu"
-	class={`h-[100vh] max-h-[100vh] flex flex-col capitalize min-h-full bg-[#f8f8f8] hide-scrollbar overflow-hidden border-r border-neutral-200 dark:border-neutral-700 ${closed ? 'w-16' : 'w-64'}`}
+	class={`h-[100vh] max-h-[100vh] flex flex-col capitalize min-h-full bg-[#f8f8f8] hide-scrollbar overflow-hidden border-r border-neutral-200 dark:border-neutral-700 ${closed ? 'w-16' : 'w-[45vw]'}`}
 >
 	<button
 		class={`flex cursor-pointer min-h-[${height}] max-h-12 items-center border-b px-6 border-neutral-200 dark:border-neutral-700`}
