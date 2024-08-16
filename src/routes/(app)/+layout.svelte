@@ -21,9 +21,9 @@
 								class="text-gray-1100 block px-2 py-4 text-lg leading-5 focus:bg-gray-100 focus:text-gray-900 focus:outline-none capitalize"
 							>
 								{#if $page.url.pathname == '/dashboard'}
-									Welcome!
+									Opstats Web Form 
 								{:else}
-									{removePrependSlash($page.url.pathname)}
+									Opstats Web Form / {removePrependSlash($page.url.pathname)}
 								{/if}
 							</button>
 						</div>
@@ -72,7 +72,7 @@
 								aria-expanded="false"
 								aria-controls="radix-:R3kqcpm:"
 							>
-								<button
+								<!-- <button
 									data-size="tiny"
 									type="button"
 									id="help-popover-button"
@@ -94,8 +94,7 @@
 											></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg
 										>
 									</div>
-									<!-- -->
-								</button>
+								</button> -->
 							</div>
 						</div>
 					</div>
