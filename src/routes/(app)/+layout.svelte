@@ -2,107 +2,57 @@
 <script lang="ts">
 	import '../../app.css';
 	import { page } from '$app/stores';
-	import { removePrependSlash } from '$lib/utils/pathnamePipe.ts';
+
 	import AppSidebar from '$lib/components/AppSidebar.svelte';
+	import AppMenu from '$lib/components/AppMenu.svelte';
+	import AppSubMenu from '$lib/components/AppSubMenu.svelte';
 </script>
 
-<div class="h-full" style="min-height: 100vh; --dot-bg: hsl(240, 10%, 3.9%); --dot-color: hsl(0, 0%, 99%); --dot-size: 1px; --dot-space: 18px; background: linear-gradient(90deg, hsl(0, 0%, 99%) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space), linear-gradient(hsl(0, 0%, 99%) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space), hsl(240, 3.8%, 46.1%); background-attachment: fixed;">
+<div
+	class="h-full max-h-[100vh] overflow-hidden"
+	style="min-height: 100vh; --dot-bg: hsl(240, 10%, 3.9%); --dot-color: hsl(0, 0%, 99%); --dot-size: 1px; --dot-space: 18px; background: linear-gradient(90deg, hsl(0, 0%, 99%) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space), linear-gradient(hsl(0, 0%, 99%) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space), hsl(240, 3.8%, 46.1%); background-attachment: fixed;"
+>
 	<div class="min-h-full flex flex-col">
 		<div class="flex-none"></div>
-		<div class="h-screen min-h-[0px] basis-0 flex-1">
+		<div class="h-screen basis-0 flex-1">
 			<div class="flex h-full">
 				<AppSidebar />
 				<div class="flex flex-1 flex-col">
-					<div
-						class="flex min-h-[3.5rem] max-h-12 items-center justify-between py-4 px-5 border-b border-default backdrop-blur-sm"
-					>
-						<div class="ml-2 flex items-center text-md ">
-							<button
-								class="text-gray-1100 block px-2 py-4 text-lg leading-5 focus:bg-gray-100 focus:text-gray-900 focus:outline-none capitalize"
-							>
-								{#if $page.url.pathname == '/dashboard'}
-									Opstats Web Form 
-								{:else}
-									Opstats Web Form / {removePrependSlash($page.url.pathname)}
-								{/if}
-							</button>
-						</div>
-						<div class="flex items-center gap-x-2">
-							<span
-								class="relative justify-center cursor-pointer inline-flex items-center space-x-2 text-center font-regular ease-out duration-200 rounded-md outline-none transition-all outline-0 focus-visible:outline-4 focus-visible:outline-offset-1 border text-foreground bg-transparent border-strong hover:border-foreground-muted focus-visible:outline-border-strong data-[state=open]:border-stronger data-[state=open]:outline-border-strong text-xs py-4 px-6 h-[26px] hidden md:flex"
-								data-size="tiny"
-								type="button"
-								aria-haspopup="dialog"
-								aria-expanded="false"
-								aria-controls="radix-:R1kqcpm:"
-								data-state="closed"><span class="truncate">Feedback</span></span
-							><button
-								data-size="tiny"
-								type="button"
-								class="relative justify-center cursor-pointer inline-flex items-center space-x-2 text-center font-regular ease-out duration-200 rounded-md outline-none transition-all outline-0 focus-visible:outline-4 focus-visible:outline-offset-1 border text-foreground hover:bg-surface-300 shadow-none focus-visible:outline-border-strong data-[state=open]:bg-surface-300 data-[state=open]:outline-border-strong border-transparent text-xs py-4 h-[26px] group px-1"
-								aria-haspopup="dialog"
-								aria-expanded="false"
-								aria-controls="radix-:R2kqcpm:"
-								data-state="closed"
-							>
-								<!-- -->
-								<div class="[&amp;_svg]:h-[14px] [&amp;_svg]:w-[14px] text-foreground-muted">
-									<svg
-										xmlns="http://www.w3.org/2000/svg"
-										width="18"
-										height="18"
-										viewBox="0 0 24 24"
-										fill="none"
-										stroke="currentColor"
-										stroke-width="1.5"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										class="lucide lucide-inbox transition group-hover:text-foreground text-foreground-light"
-										><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline><path
-											d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"
-										></path></svg
-									>
-								</div></button
-							>
-							<div
-								class="relative flex items-center"
-								data-state="closed"
-								type="button"
-								aria-haspopup="dialog"
-								aria-expanded="false"
-								aria-controls="radix-:R3kqcpm:"
-							>
-								<!-- <button
-									data-size="tiny"
-									type="button"
-									id="help-popover-button"
-									class="relative justify-center cursor-pointer inline-flex items-center space-x-2 text-center font-regular ease-out duration-200 rounded-md outline-none transition-all outline-0 focus-visible:outline-4 focus-visible:outline-offset-1 border text-foreground hover:bg-surface-300 shadow-none focus-visible:outline-border-strong data-[state=open]:bg-surface-300 data-[state=open]:outline-border-strong border-transparent text-xs py-4 h-[26px] px-1"
-									><div class="[&amp;_svg]:h-[14px] [&amp;_svg]:w-[14px] text-foreground-muted">
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											width="16"
-											height="16"
-											viewBox="0 0 24 24"
-											fill="none"
-											stroke="currentColor"
-											stroke-width="1.5"
-											stroke-linecap="round"
-											stroke-linejoin="round"
-											class="sbui-icon text-foreground-light"
-											><circle cx="12" cy="12" r="10"></circle><path
-												d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"
-											></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg
-										>
-									</div>
-								</button> -->
-							</div>
-						</div>
-					</div>
-					<div class="p-8 bh-inherit">
-                     <slot></slot>
+					<AppMenu />
+					{#if $page.url.pathname.includes('rural') || $page.url.pathname.includes('urban')}
+						<AppSubMenu />
+					{/if}
+					<div id="scrollable" class="p-4 bh-inherit overflow-y-scroll grow">
+						<slot />
+						<br />
+						<button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Save</button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+<style>
+	/* Always show the scrollbar */
+	#scrollable {
+		overflow-y: scroll; /* Ensure the scrollbar is always visible */
+	}
+
+	/* Thin scrollbar for Webkit-based browsers (Chrome, Safari, Edge) */
+	#scrollable::-webkit-scrollbar {
+		width: 8px; /* Set the scrollbar width */
+		height: 8px; /* Set the scrollbar height */
+	}
+
+	#scrollable::-webkit-scrollbar-thumb {
+		background-color: #a0aec0; /* Customize the scrollbar thumb color */
+		border-radius: 4px; /* Add some rounding to the edges */
+	}
+
+	/* Thin scrollbar for Firefox */
+	#scrollable {
+		scrollbar-width: thin; /* Use the thin scrollbar preset */
+		scrollbar-color: #a0aec0 transparent; /* Customize the scrollbar thumb and track colors */
+	}
+</style>
