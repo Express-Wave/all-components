@@ -11,7 +11,9 @@
 		let url = '';
 		breadcrumbs = parts.map((part, index) => {
 			url += `/${part}`;
-			return { label: part, url: url };
+			// Check if part is a 4-digit year and prefix with 'FY'
+			const formattedPart = /^\d{4}$/.test(part) ? `FY${part}` : part;
+			return { label: formattedPart, url: url };
 		});
 	}
 
@@ -52,7 +54,6 @@
 		{/if}
 	</div>
 	<div class="flex items-center gap-x-2">
-		<!-- Feedback Button -->
 		<span
 			class="relative justify-center cursor-pointer inline-flex items-center space-x-2 text-center font-regular ease-out duration-200 rounded-md outline-none transition-all outline-0 focus-visible:outline-4 focus-visible:outline-offset-1 border text-foreground bg-transparent border-strong hover:border-foreground-muted focus-visible:outline-border-strong data-[state=open]:border-stronger data-[state=open]:outline-border-strong text-xs py-4 px-6 h-[26px] hidden md:flex"
 			data-size="tiny"
@@ -63,7 +64,6 @@
 		>
 			<span class="truncate">Feedback</span>
 		</span>
-		<!-- Inbox Button -->
 		<button
 			data-size="tiny"
 			type="button"

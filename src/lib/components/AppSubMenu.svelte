@@ -4,8 +4,8 @@
   import { onMount } from 'svelte';
 
   // Define year and quarter variables
-  let year = '2023'; // Example year, replace with actual dynamic value
-  let quarter = 'q4'; // Example quarter, replace with actual dynamic value
+  let year = '2023'; 
+  let quarter = 'q4'; 
 
   // Define the menu items for urban and rural paths
   const menus: Record<string, string[]> = {
@@ -43,8 +43,8 @@
   }
 
   function updateMenu() {
-    isUrbanPath = pathname.includes('urban');
-    isRuralPath = pathname.includes('rural');
+    isUrbanPath = $page.url.pathname.includes('urban');
+    isRuralPath = $page.url.pathname.includes('rural');
     currentMenu = [];
 
     if (isUrbanPath) currentMenu = menus.urban;
