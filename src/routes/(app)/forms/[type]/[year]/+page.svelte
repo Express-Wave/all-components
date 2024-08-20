@@ -22,11 +22,11 @@ src\routes\(app)\forms\[type]\[year]\+page.svelte
 	});
 </script>
 
-<ul>
+<ul class="space-y-4 max-w-2xl">
 	{#each quarters as quarter}
 		<li>
 			<a href={`/forms/${type}/${year}/${quarter}`}>
-				{quarter.toUpperCase()}
+				<div class="relative overflow-x-auto border backdrop-blur-sm p-4 rounded-lg hover:border-[var(--clr-theme-color)]">{quarter.toUpperCase()}</div>
 			</a>
 		</li>
 	{/each}

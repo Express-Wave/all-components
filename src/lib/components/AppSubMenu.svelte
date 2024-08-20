@@ -8,7 +8,7 @@
   let quarter = 'q4'; 
 
   // Define the menu items for urban and rural paths
-  const menus: Record<string, string[]> = {
+  let menus: Record<string, string[]> = {
     urban: [
       'overview',
       'weekday',
