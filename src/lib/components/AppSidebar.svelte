@@ -2,9 +2,10 @@
 	import CloseIcon from '$lib/icons/CloseIcon.svelte';
 	import LogoutIcon from '$lib/icons/LogoutIcon.svelte';
 	import MenuIcon from '$lib/icons/MenuIcon.svelte';
-	import '../../app.css';
 	import { animationDuration } from '$lib/stores/animation.store';
 	import { onDestroy } from 'svelte';
+	import HelperMenu from './HelperMenu.svelte';
+	import '../../app.css';
 
 	let height: string = '3.5rem';
 	let closed: boolean = true;
@@ -62,13 +63,13 @@
 			</div>
 		{/if}
 	</button>
-	<div class="min-h-[100%] max-h-90vh overflow-none py-5 px-6">
+	<div class="min-h-[100%] max-h-90vh overflow-none py-5">
 		{#if !closed}
 			<div
 				class={`ease-in-out transition-opacity ${shouldFadeIn ? 'opacity-100' : 'opacity-0'}`}
 				style={`transition-duration: ${fadeDuration}ms;`}
 			>
-				<span>Here's some Menu stuff!</span>
+				<HelperMenu />
 			</div>
 		{/if}
 	</div>
