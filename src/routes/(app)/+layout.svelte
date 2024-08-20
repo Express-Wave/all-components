@@ -7,8 +7,7 @@
 	import AppMenu from '$lib/components/AppMenu.svelte';
 	import AppSubMenu from '$lib/components/AppSubMenu.svelte';
 
-	let width: number = 32;
-	let sideBarWidth: string = `[${width}rem]`;
+	let sideBarWidthInREM: number = 32;
 </script>
 
 <div id="container" class="h-full max-h-[100vh] overflow-hidden">
@@ -16,8 +15,8 @@
 		<div class="flex-none" />
 		<div class="h-screen basis-0 flex-1">
 			<div class="flex h-full">
-				<AppSidebar width={sideBarWidth} />
-				<div class={`flex flex-1 flex-col -mr-${sideBarWidth}`}>
+				<AppSidebar width={sideBarWidthInREM} />
+				<div class={`flex flex-1 flex-col -mr-[${sideBarWidthInREM}rem]`}>
 					<AppMenu />
 					{#if $page.url.pathname.includes('rural') || $page.url.pathname.includes('urban')}
 						<AppSubMenu />

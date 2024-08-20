@@ -2,44 +2,37 @@
 	import CloseIcon from '$lib/icons/CloseIcon.svelte';
 	import LogoutIcon from '$lib/icons/LogoutIcon.svelte';
 	import MenuIcon from '$lib/icons/MenuIcon.svelte';
+	import HelperMenu from './HelperMenu.svelte';
 	import { animationDuration } from '$lib/stores/animation.store';
 	import { onDestroy } from 'svelte';
-	import HelperMenu from './HelperMenu.svelte';
 	import '../../app.css';
+
+	export let width: number;
 
 	let height: string = '3.5rem';
 	let closed: boolean = true;
-	export let width: string;
+	let fadeDuration: number;
+	let shouldFadeIn: boolean = false;
 
 	function toggleSidebar(event: Event) {
 		event.preventDefault();
 		closed = !closed;
-		console.log('Sidebar closed?', closed);
 	}
-	let widthClass = `w-${width}`;
-
-	let fadeDuration: number;
-	let shouldFadeIn: boolean = false;
 
 	const unsubscribe = animationDuration.subscribe((value) => {
-		// fadeDuration = value;
 		fadeDuration = value - 200;
 	});
 
-	// Clean up subscription on component destroy
 	onDestroy(() => {
 		unsubscribe();
 	});
 
-	// Reactive statement to handle fade-in delay
-	$: {
-		if (!closed) {
-			setTimeout(() => {
-				shouldFadeIn = true;
-			}, fadeDuration);
-		} else {
-			shouldFadeIn = false;
-		}
+	$: if (!closed) {
+		setTimeout(() => {
+			shouldFadeIn = true;
+		}, fadeDuration);
+	} else {
+		shouldFadeIn = false;
 	}
 </script>
 
@@ -48,7 +41,8 @@
 	aria-label="Sidebar"
 	aria-orientation="vertical"
 	aria-labelledby="options-menu"
-	class={`h-[100vh] max-h-[100vh] flex flex-col capitalize min-h-full bg-[#f8f8f8] hide-scrollbar overflow-hidden border-r border-neutral-200 transition-all duration-500 ease-in-out dark:border-neutral-700 ${closed ? 'w-16' : widthClass}`}
+	class="h-[100vh] max-h-[100vh] flex flex-col capitalize min-h-full bg-[#f8f8f8] hide-scrollbar overflow-hidden border-r border-neutral-200 transition-all duration-500 ease-in-out dark:border-neutral-700"
+	style={`width: ${closed ? '4rem' : `${width}rem`};`}
 >
 	<button
 		class={`flex cursor-pointer min-h-[${height}] max-h-12 items-center border-b px-6 border-neutral-200 dark:border-neutral-700`}
