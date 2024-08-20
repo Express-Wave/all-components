@@ -7,11 +7,14 @@
 
 	let closed: boolean = true;
 
+	export let width: string;
+
 	function toggleSidebar(event: Event) {
 		event.preventDefault();
 		closed = !closed;
 		console.log('Sidebar closed?', closed);
 	}
+	let widthClass = `w-${width}`;
 </script>
 
 <header
@@ -19,7 +22,7 @@
 	aria-label="Sidebar"
 	aria-orientation="vertical"
 	aria-labelledby="options-menu"
-	class={`h-[100vh] max-h-[100vh] flex flex-col capitalize min-h-full bg-[#f8f8f8] hide-scrollbar overflow-hidden border-r border-neutral-200 dark:border-neutral-700 ${closed ? 'w-16' : 'w-128'}`}
+	class={`h-[100vh] max-h-[100vh] flex flex-col capitalize min-h-full bg-[#f8f8f8] hide-scrollbar overflow-hidden border-r border-neutral-200 transition-all duration-500 ease-in-out dark:border-neutral-700 ${closed ? 'w-16' : widthClass}`}
 >
 	<button
 		class={`flex cursor-pointer min-h-[${height}] max-h-12 items-center border-b px-6 border-neutral-200 dark:border-neutral-700`}

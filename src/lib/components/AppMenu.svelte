@@ -33,7 +33,7 @@
 >
 	<div class="mx-2 flex items-center text-md">
 		<a href="/dashboard">
-			<h2 class="font-[heading-normal] min-w-[fit-content] text-xl text-slate-700">
+			<h2 class="font-[heading-normal] min-w-[fit-content] whitespace-nowrap text-xl text-slate-700">
 				Opstats Web Form
 			</h2>
 		</a>
