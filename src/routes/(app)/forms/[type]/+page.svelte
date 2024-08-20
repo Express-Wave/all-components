@@ -13,10 +13,8 @@ src\routes\(app)\forms\[type]\+page.svelte
 	const segments: string[] = $page.url.pathname.split('/');
 	const type: string = segments[segments.length - 1];
 
-	// Determine the type based on the last segment of the pathname
 	onMount(() => {
-		//   const segments = $page.url.pathname.split('/');
-		//   type = segments[segments.length - 1];
+		console.log("Last Five Years:", lastFiveYears)
 	});
 </script>
 

@@ -102,15 +102,7 @@
 
 	// Define the menus array
 	let menus: Record<string, string[]> = {
-		urban: [
-			'overview',
-			'weekday',
-			'saturday',
-			'sunday',
-			'finance',
-			'reconciliation',
-			'disabled'
-		],
+		urban: ['overview', 'weekday', 'saturday', 'sunday', 'finance', 'reconciliation', 'disabled'],
 		rural: [
 			'overview',
 			'weekday',
@@ -141,6 +133,11 @@
 			const label = excludedLabels.includes(formattedPart.toLowerCase()) ? '' : formattedPart;
 			return { label, url: url };
 		});
+
+		// Remove the trailing breadcrumb if the pathname contains 'q'
+		if (path.includes('q') || path.includes('Q')) {
+			breadcrumbs.pop();
+		}
 	}
 
 	// Reactively update breadcrumbs based on the current pathname
@@ -159,7 +156,9 @@
 >
 	<div class="mx-2 flex items-center text-md">
 		<a href="/dashboard">
-			<h2 class="font-[heading-normal] min-w-[fit-content] whitespace-nowrap text-xl text-slate-700">
+			<h2
+				class="font-[heading-normal] min-w-[fit-content] whitespace-nowrap text-xl text-slate-700"
+			>
 				Opstats Web Form
 			</h2>
 		</a>
@@ -167,7 +166,7 @@
 			<div class="flex items-center min-w-[40vw] ml-6">
 				{#each breadcrumbs as breadcrumb, index}
 					{#if index > 0}
-						{#if index < breadcrumbs.length - 1}
+						{#if index < breadcrumbs.length}
 							<BreadcrumbIcon />
 						{/if}
 					{/if}

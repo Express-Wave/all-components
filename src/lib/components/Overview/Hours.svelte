@@ -122,7 +122,7 @@
 					</div>
 				</td>
 				<td colspan="1">
-					<NumberInput id="wkdy-peaks" label="" required={true} />
+					<NumberInput id="wkdy-peaks" required={true} />
 				</td>
 			</tr>
 			<!-- SATURDAY -->
@@ -209,7 +209,7 @@
 						</div>
 					</td>
 					<td colspan="1">
-						<NumberInput id="wkdy-peaks" label="" required={true} />
+						<NumberInput id="wkdy-peaks" required={true} />
 					</td>
 				{/if}
 			</tr>

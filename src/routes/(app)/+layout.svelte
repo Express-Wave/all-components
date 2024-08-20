@@ -13,7 +13,7 @@
 
 <div id="container" class="h-full max-h-[100vh] overflow-hidden">
 	<div class="min-h-full flex flex-col">
-		<div class="flex-none"></div>
+		<div class="flex-none" />
 		<div class="h-screen basis-0 flex-1">
 			<div class="flex h-full">
 				<AppSidebar width={sideBarWidth} />
