@@ -11,8 +11,8 @@ src\routes\(app)\forms\[type]\[year]\+page.svelte
 	const pathname = $page.url.pathname;
 	const segments = pathname.split('/').filter(Boolean);
 
-	let type = segments[segments.length - 2]; // Second last segment
-	let year = segments[segments.length - 1]; // Last segment
+	let type = segments[segments.length - 2]; // Penultimate path text
+	let year = segments[segments.length - 1]; // Last path text
 
 	onMount(() => {
         console.log(
@@ -26,7 +26,7 @@ src\routes\(app)\forms\[type]\[year]\+page.svelte
 	{#each quarters as quarter}
 		<li>
 			<a href={`/forms/${type}/${year}/${quarter}`}>
-				<div class="relative overflow-x-auto border backdrop-blur-sm p-4 rounded-lg hover:border-[var(--clr-theme-color)]">{quarter.toUpperCase()}</div>
+				<div class="relative overflow-x-auto border backdrop-blur-sm p-4 rounded-lg hover:border-theme">{quarter.toUpperCase()}</div>
 			</a>
 		</li>
 	{/each}

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Tooltip from '$lib/components/Tooltip.svelte';
 	let selectedMode: ModeType[] = [];
 
 	const modeOptions = [
@@ -49,8 +50,7 @@
 						<label class="flex items-center ml-4 text-md">
 							<input type="checkbox" name="mode" value={mode} class="mr-2 h-4 w-4" />
 							<span class="text-md ml-2">{mode}</span>
-
-							<div class="tooltip-container ml-2">
+							<Tooltip text={getTooltipText(mode)}>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="16"
@@ -67,12 +67,8 @@
 									<path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
 									<line x1="12" y1="17" x2="12.01" y2="17"></line>
 								</svg>
-								<span
-									class="w-[300px] tooltip-text py-4 px-3 rounded-lg leading-5 bg-neutral-800 text-white text-center absolute"
-								>
-									{getTooltipText(mode)}
-								</span>
-							</div>
+								</Tooltip
+							>
 						</label>
 					</td>
 				</tr>
@@ -80,37 +76,3 @@
 		</tbody>
 	</table>
 </div>
-
-<style>
-	.tooltip-container {
-		position: relative;
-		display: inline-block;
-		cursor: pointer;
-	}
-
-	.tooltip-container .tooltip-text {
-		visibility: hidden;
-		z-index: 1;
-		top: 50%; /* Align vertically with the SVG icon */
-		left: 175%; /* Position to the right of the icon */
-		transform: translateY(-50%);
-		opacity: 0;
-		transition: opacity 0.3s;
-	}
-
-	.tooltip-container .tooltip-text::after {
-		content: '';
-		position: absolute;
-		top: 50%; /* Center arrow vertically */
-		right: 100%; /* Position arrow to the left of the tooltip */
-		margin-top: -5px; /* Offset to align the center of the arrow */
-		border-width: 5px;
-		border-style: solid;
-		border-color: transparent #555 transparent transparent; /* Arrow pointing left */
-	}
-
-	.tooltip-container:hover .tooltip-text {
-		visibility: visible;
-		opacity: 1;
-	}
-</style>

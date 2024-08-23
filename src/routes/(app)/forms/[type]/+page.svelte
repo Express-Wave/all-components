@@ -23,9 +23,9 @@ src\routes\(app)\forms\[type]\+page.svelte
 		<li>
 			<a href={`/forms/${type}/${year}`}>
 				<div
-					class="relative overflow-x-auto border backdrop-blur-sm p-4 rounded-lg hover:border-[var(--clr-theme-color)]"
+					class="relative overflow-x-auto border backdrop-blur-sm p-4 rounded-lg hover:border-theme"
 				>
-					{year}
+					FY{year}
 				</div>
 			</a>
 		</li>

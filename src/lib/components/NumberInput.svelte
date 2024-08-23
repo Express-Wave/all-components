@@ -48,7 +48,7 @@
 			bind:value
 			data-input-counter
 			aria-describedby="helper-text-explanation"
-			class="px-3 py-[0.5rem] bg-gray-50 border-y border-gray-300 text-center text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full min-w-[100px] py-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+			class="px-3 py-[0.5rem] bg-gray-50 border-y border-gray-300 text-center text-gray-900 text-sm focus:ring-theme focus:border-theme block w-full min-w-[100px] py-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-theme dark:focus:border-theme"
 			placeholder="0"
 			{required}
 		/>

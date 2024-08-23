@@ -54,7 +54,3 @@ h3, h4 {
 h1, h2 {
     font-family: 'heading-medium', sans-serif;
 }
-
-:root {
-    --clr-theme-color: #39C294;
-}

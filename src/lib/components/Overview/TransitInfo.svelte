@@ -39,10 +39,16 @@
 								/>
 							</svg>
 						</span>
+						<!-- <input
+							type="text"
+							id="website-admin"
+							class="rounded-none rounded-e-lg bg- border text-gray-900 focus:ring-theme focus:border-theme focus-visible:border-theme block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-theme dark:focus:border-theme focus-visible:border-theme"
+							placeholder="Jack Traven"
+						/> -->
 						<input
 							type="text"
 							id="website-admin"
-							class="rounded-none rounded-e-lg bg- border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+							class="block w-full rounded-none p-2.5 rounded-e-lg bg-white border border-gray-300 text-gray-900 focus:ring-theme focus:border-theme block flex-1 min-w-0 text-sm dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-theme dark:focus:border-theme"
 							placeholder="Jack Traven"
 						/>
 					</div>
@@ -83,7 +89,6 @@
 						<span
 							class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border rounded-e-0 border-gray-300 border-e-0 rounded-s-md dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600"
 						>
-							<!-- <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12v1.45q0 1.475-1.012 2.513T18.5 17q-.875 0-1.65-.375t-1.3-1.075q-.725.725-1.638 1.088T12 17q-2.075 0-3.537-1.463T7 12t1.463-3.537T12 7t3.538 1.463T17 12v1.45q0 .65.425 1.1T18.5 15t1.075-.45t.425-1.1V12q0-3.35-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20h5v2zm0-7q1.25 0 2.125-.875T15 12t-.875-2.125T12 9t-2.125.875T9 12t.875 2.125T12 15"/></svg> -->
 							<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"
 								><path
 									fill="currentColor"
@@ -94,7 +99,7 @@
 						<input
 							type="text"
 							id="website-admin"
-							class="rounded-none rounded-e-lg bg- border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+							class="rounded-none rounded-e-lg bg- border text-gray-900 focus:ring-theme focus:border-theme focus-visible:border-theme block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-theme dark:focus:border-theme focus-visible:border-theme"
 							placeholder="manager@waketransit.gov"
 						/>
 					</div>
@@ -125,7 +130,7 @@
 						<input
 							type="tel"
 							id="phone-number"
-							class="rounded-none rounded-e-lg bg- border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+							class="rounded-none rounded-e-lg bg- border text-gray-900 focus:ring-theme focus:border-theme focus-visible:border-theme block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-theme dark:focus:border-theme focus-visible:border-theme"
 							placeholder="919-212-7005"
 						/>
 					</div>
@@ -154,9 +159,9 @@
 							>
 						</span>
 						<input
-							 type="tel"
+							type="tel"
 							id="fax"
-							class="rounded-none rounded-e-lg bg- border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+							class="rounded-none rounded-e-lg bg- border text-gray-900 focus:ring-theme focus:border-theme focus-visible:border-theme block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-theme dark:focus:border-theme focus-visible:border-theme"
 							placeholder="919-212-7000"
 						/>
 					</div>
@@ -168,7 +173,7 @@
 
 <style>
 	table {
-		backdrop-filter: blur(10px);
+		backdrop-filter: blur(5px);
 	}
 
 	td {
@@ -176,8 +181,4 @@
 		padding-bottom: 0.75rem;
 		padding-right: 1rem;
 	}
-
-    /* tr > td:last-child {
-        padding-bottom: 3rem;
-    } */
 </style>

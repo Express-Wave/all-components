@@ -7,7 +7,7 @@
 		<li>
 			<a href={`/${option}`}>
 				<div
-					class="relative capitalize overflow-x-auto border backdrop-blur-sm p-4 rounded-lg hover:border-[var(--clr-theme-color)]"
+					class="relative capitalize overflow-x-auto border backdrop-blur-sm p-4 rounded-lg hover:border-theme"
 				>
 					{option}
 				</div>

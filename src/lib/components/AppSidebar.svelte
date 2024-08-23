@@ -41,7 +41,7 @@
 	aria-label="Sidebar"
 	aria-orientation="vertical"
 	aria-labelledby="options-menu"
-	class="h-[100vh] max-h-[100vh] flex flex-col capitalize min-h-full bg-[#f8f8f8] hide-scrollbar overflow-hidden border-r border-neutral-200 transition-all duration-500 ease-in-out dark:border-neutral-700"
+	class="h-[100vh] max-h-[100vh] flex flex-col min-h-full bg-[#f8f8f8] hide-scrollbar overflow-hidden border-r border-neutral-200 transition-all duration-500 ease-in-out dark:border-neutral-700"
 	style={`width: ${closed ? '4rem' : `${width}rem`};`}
 >
 	<button
@@ -53,7 +53,7 @@
 		{:else}
 			<div class="flex items-center">
 				<CloseIcon />
-				<span class="ml-4">Close</span>
+				<span class="ml-4 font-semibold">Menu</span>
 			</div>
 		{/if}
 	</button>
@@ -80,7 +80,7 @@
 			<div class="transition truncate text-sm group-hover min-w-fit">
 				<LogoutIcon />
 			</div>
-			<span class="transition truncate text-sm w-full">Log out</span>
+			<span class="transition capitalize truncate text-sm w-full">Log out</span>
 		</div>
 	</a>
 </header>
