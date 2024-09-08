@@ -62,7 +62,7 @@
 
 {#if shouldShowMenu}
 	<div
-		class="pl-3 text-sm font-medium text-center text-gray-700 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700 backdrop-blur-md"
+		class="pl-3 text-sm font-medium text-center text-gray-700 border-b border-gray-200 dark:text-gray-400 backdrop-blur-md"
 	>
 		<ul class="flex flex-wrap -mb-px">
 			{#each currentMenu as item}

@@ -15,16 +15,9 @@
 		<div class="flex-none" />
 		<div class="h-screen basis-0 flex-1">
 			<div class="flex h-full">
-				<AppSidebar width={sideBarWidthInREM} />
-				<div class={`flex flex-1 flex-col -mr-[${sideBarWidthInREM}rem]`}>
-					<AppMenu />
-					{#if $page.url.pathname.includes('rural') || $page.url.pathname.includes('urban')}
-						<AppSubMenu />
-					{/if}
-					<div id="scrollable" class="p-4 bh-inherit overflow-y-scroll grow">
+
 						<slot />
-					</div>
-				</div>
+
 			</div>
 		</div>
 	</div>

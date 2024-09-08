@@ -3,6 +3,7 @@
 	import { onDestroy } from 'svelte';
 
 	let duration: number;
+	export let currentColor: string;
 
 	// Subscribe to the animationDuration store
 	const unsubscribe = animationDuration.subscribe((value) => {
@@ -15,10 +16,10 @@
 	});
 </script>
 
-<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
 	<g
 		fill="none"
-		stroke="#39c294"
+		stroke="{currentColor}"
 		stroke-dasharray="24"
 		stroke-dashoffset="24"
 		stroke-linecap="round"

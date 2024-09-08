@@ -7,7 +7,6 @@
     src: url('/fonts/GeneralSans-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-    font-weight: medium;
 }
 
 body {
@@ -25,7 +24,6 @@ body {
     font-family: 'display-normal', sans-serif;
     font-weight: normal;
     line-height: 1.6;
-    /* font-family: 'Inter', system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; */
 }
 
 /* ------------------------------------------------------------------ */
@@ -35,10 +33,19 @@ body {
     src: url('/fonts/Quilon-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-    font-weight: medium;
 }
 
-h3, h4 {
+/* ------------------------------------------------------------------ */
+
+@font-face {
+    font-family: 'outfit';
+    src: url('/fonts/Outfit-Medium.woff2') format('woff2');
+    font-weight: medium;
+    font-style: medium;
+}
+
+h3,
+h4 {
     font-family: 'heading-normal', sans-serif;
 }
 
@@ -51,6 +58,11 @@ h3, h4 {
     font-style: medium;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'heading-medium', sans-serif;
+}
+
+:root {
+    --theme-color: #00458f;
 }
