@@ -8,9 +8,9 @@
 <HeroSection />
 <AboutSection />
 <EventSection />
-<div class="content h-[100vh] grid place-items-center scroll-snap-start bg-bisque">
+<div id="media" class="content h-[100vh] grid place-items-center scroll-snap-start bg-bisque">
 	Section 4 - Full Width
 </div>
-<div class="content h-[100vh] grid place-items-center scroll-snap-start bg-lightgreen">
+<div id="give" class="content h-[100vh] grid place-items-center scroll-snap-start bg-lightgreen">
 	Section 5 - Full Width
 </div>

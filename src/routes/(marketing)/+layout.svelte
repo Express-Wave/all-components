@@ -3,7 +3,7 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 </script>
 
-<div class="scroll-container h-screen overflow-y-auto scroll-snap-y scroll-snap-mandatory">
+<div class="scroll-container h-screen overflow-y-auto lg:scroll-snap-y lg:scroll-snap-mandatory">
 	<Header>
 		<Navbar />
 	</Header>
