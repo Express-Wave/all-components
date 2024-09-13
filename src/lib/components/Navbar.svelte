@@ -17,7 +17,7 @@
 					<li>
 						<a
 							href={`#${text.toLowerCase()}`}
-							class="relative hover:text-theme-900 hover:font-bold capitalize text-outfit after:content-[''] after:block after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-full after:bg-theme-900 after:rounded-md after:scale-x-0 hover:after:scale-x-100 after:translate-y-2 after:transition-transform after:duration-300"
+							class="relative hover:text-theme-900 capitalize text-outfit after:content-[''] after:block after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-full after:bg-theme-900 after:rounded-md after:scale-x-0 hover:after:scale-x-100 after:translate-y-2 after:transition-transform after:duration-300"
 						>
 							{text}
 						</a>

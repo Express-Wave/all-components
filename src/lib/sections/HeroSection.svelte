@@ -13,18 +13,19 @@
 	bg-[url('https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/ebc_hero-img_FfmkTZ5oY.png?updatedAt=1725141140840')]
 	 bg-cover bg-center"
 >
+	<div class="absolute inset-0 bg-mono-300 bg-opacity-10"></div>
 	<!-- DIV TO CONTAIN THE MAX WIDTH OF ALL ELEMENTS -->
 	<div
-		class="flex flex-col justify-center flex-grow max-w-[875px] w-full space-y-8 sm:w-[90%]"
+		class="flex flex-col justify-center flex-grow max-w-[875px] w-full space-y-8 sm:w-[90%] z-10"
 		style="padding-left: 1rem;"
 	>
 		<h1
 			class="
 			text-mono-50 font-outfitMedium font-bold text-left
-			leading-tight
+			leading-tight z-
 			mt-16 mb-8 md:mb-4
 			text-[3.25rem] md:text-7xl
-			whitespace-none
+			whitespace-none sm:
 			"
 		>
 			Helping Others <br />
@@ -68,25 +69,25 @@
 			<span class="">Jesus</span>
 		</h1>
 		<div
-			class="flex flex-col space-y-4 items-start md:flex-row md:space-y-0 md:space-x-4 md:items-center mt-12"
+			class="flex flex-col space-y-4 items-start md:flex-row md:space-y-0 md:space-x-4 md:items-center mt-12 font-outfitMedium"
 		>
 			<button
 				type="button"
-				class="text-black font-semibold rounded-full text-xl py-2.5 px-5 text-center me-2 w-[95%] md:max-w-[275px] h-16 bg-[dodgerblue] font-heading-medium  focus:outline-none focus:ring-4 focus:ring-blue-300 transform transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-gradient-to-tr hover:from-blue-600 hover:to-cyan-500 hover:text-white
+				class="text-white rounded-full text-xl py-2.5 px-5 text-center me-2 w-[95%] md:max-w-[275px] h-16 bg-[dodgerblue] font-heading-medium  focus:outline-none focus:ring-4 focus:ring-blue-300 transform transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-gradient-to-tr hover:from-blue-600 hover:to-cyan-500 hover:text-white
 				"
 			>
 				Plan Your Visit
 			</button>
 			<button
 				type="button"
-				class="text-white py-2.5 px-5 text-center me-2 text-xl font-semibold text-mono-100 focus:outline-none backdrop-blur-sm rounded-full border border-mono-200 hover:bg-gray-100 hover:text-theme-900 focus:z-10 focus:ring-4 focus:ring-gray-100 w-[95%] md:max-w-[275px] h-16 transform transition-transform duration-300 ease-in-out hover:scale-105"
+				class="text-white py-2.5 px-5 text-center me-2 text-xl text-mono-100 focus:outline-none backdrop-blur-sm rounded-full border border-mono-200 hover:bg-gray-100 hover:text-theme-900 focus:z-10 focus:ring-4 focus:ring-gray-100 w-[95%] md:max-w-[275px] h-16 transform transition-transform duration-300 ease-in-out hover:scale-105"
 			>
 				<a href="#discover">Learn More</a>
 			</button>
 		</div>
 	</div>
-
-	<div class="flex justify-center items-center h-16 w-full bg-theme-600 text-white">
+	<!-- BOTTOM BANNER -->
+	<div class="hidden md:flex justify-center items-center h-16 w-full bg-theme-600 text-white font-outfitMedium">
 		<div class="flex justify-center items-center max-w-[875px] w-full text-lg">
 			<div class="flex justify-center items-center flex-grow space-x-8">
 				<Address />
@@ -97,9 +98,3 @@
 		</div>
 	</div>
 </section>
-
-<!-- <style>
-	h1 {
-		font-family: 'outfit', sans-serif;
-	}
-</style> -->
