@@ -1,0 +1,1 @@
+<span class="m-auto text-8xl font-semibold text-slate-800">Page Not Found</span>

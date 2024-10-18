@@ -1,8 +1,14 @@
 <script lang="ts">
-    import "../global.css";
+	import { getContext } from 'svelte';
+
+	import '../global.css';
+	import HeroSection from '$lib/components/HeroSection.svelte';
+	// import DiscoverSection from '$lib/components/DiscoverSection.svelte';
+	const numberOfColumns: string = getContext('columnWidth');
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-
-<span class="text-8xl text-slate-800">ABCDEFG</span>
+<HeroSection />
+<!-- <DiscoverSection /> -->
+<section id="two" class="h-[800px] bg-slate-800">
+	<!-- <h2>Section 2, ya'll</h2> -->
+</section>
