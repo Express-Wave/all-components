@@ -1,9 +1,9 @@
 <script lang="ts">
 	import Megaphone from '$lib/icons/Megaphone.svelte';
-	import "../../global.css";
-	
+	import '../../global.css';
+
 	export let bannerText: string;
-	export let styling: string = ''; 
+	export let styling: string = '';
 
 	let isBannerVisible = true;
 
@@ -15,62 +15,50 @@
 {#if isBannerVisible}
 	<div
 		tabindex="-1"
-		class={`${styling} grid grid-cols-components z-50 justify-center w-full items-center h-14 font-semibold bg-yellow-500 text-mono-800`}
+		class="${styling} grid custom-grid-cols gap-x-clamp grid-rows-auto row-span-1 z-50 place-items-center place-content-center col-span-3 col-start-1 w-full h-16 font-semibold bg-amber-300 text-mono-900"
 	>
-	
-	<!-- <div
-		class="flex justify-center items-center w-full max-w-[80ch] h-full border-4 border-green-600"
-	> -->
-	<div
-	id="hero-info"
-	class="col-span-1 col-start-2 row-span-1 row-start-1 w-full h-full min-h-full border-4 border-purple-500"
->
 		<div
-			class="flex items-center h-full border border-transparent border-violet-700 grow md:mx-auto border-1"
+			class="grid grid-cols-[3rem_1fr_3rem] max-w-[850px] gap-x-clamp col-span-3 col-start-1 row-span-1 row-start-1 w-full h-full place-content-center md:place-items-center"
 		>
-			<p class="flex items-center text-sm">
-				<span
-				class="inline-flex flex-shrink-0 justify-center items-center w-6 h-6 bg-gray-200 rounded-full me-3"
-			  >
+			<span
+				class="inline-flex col-span-1 col-start-1 justify-center items-center ml-2 w-8 h-8 bg-gray-200 rounded-full"
+			>
 				<Megaphone />
 				<span class="sr-only">Megaphone</span>
-			  </span>
-				<span class="capitalize">
-					{bannerText}
-					<a
-						href="#events"
-						class="block ml-1 underline sm:inline text-theme-900 underline-offset-2 decoration-600 decoration-solid hover:no-underline"
-					>
-						Learn More
-					</a>
-				</span>
-			</p>
-		</div>
+			</span>
 
-		<div class="flex justify-center items-center w-10 h-full border border-transparent">
-			<button
-				on:click={closeBanner}
-				type="button"
-				class="inline-flex flex-shrink-0 justify-center items-center w-10 h-10 text-sm rounded-lg text-mono-800 hover:bg-gray-200 hover:text-gray-900"
+			<a
+				href="#events"
+				class="flex col-span-1 col-start-2 items-center text-sm cursor-pointer title debug-border"
 			>
-				<svg
-					class="w-3 h-3"
-					aria-hidden="true"
-					xmlns="http://www.w3.org/2000/svg"
-					fill="none"
-					viewBox="0 0 14 14"
+				{bannerText}
+			</a>
+
+			<!-- Close Button Column -->
+			<div class="flex justify-center items-center w-8">
+				<button
+					on:click={closeBanner}
+					type="button"
+					class="inline-flex justify-center items-center w-8 h-8 text-sm rounded-full text-mono-800 hover:bg-red-500 hover:text-mono-100"
 				>
-					<path
-						stroke="currentColor"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
-						d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
-					/>
-				</svg>
-				<span class="sr-only">Close banner</span>
-			</button>
+					<svg
+						class="w-3 h-3"
+						aria-hidden="true"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 14 14"
+					>
+						<path
+							stroke="currentColor"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+						/>
+					</svg>
+					<span class="sr-only">Close banner</span>
+				</button>
+			</div>
 		</div>
-	</div>
 	</div>
 {/if}

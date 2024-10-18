@@ -82,9 +82,14 @@
 }
 
 .grid-cols-custom {
-  grid-template-columns: 1fr_minmax(clamp(1rem,6vw,3rem),80ch)_1fr;
+  grid-template-columns: 1fr_minmax(clamp(1rem,6vw,3rem),850px)_1fr;
 }
 
 .custom-grid-cols {
-  grid-template-columns: 1fr minmax(0,80ch) 1fr;
+  grid-template-columns: 1fr minmax(0,850px) 1fr;
+}
+
+.debug-border {
+  border: 4px solid rgb(251 191 36);
+  border: transparent;
 }

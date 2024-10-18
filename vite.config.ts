@@ -1,5 +1,9 @@
 import { sveltekit } from '@sveltejs/kit/vite';
+import { enhancedImages } from '@sveltejs/enhanced-img';
 
 export default {
-	plugins: [sveltekit()],
+	plugins: [
+		enhancedImages(),
+		sveltekit()
+	],
 };

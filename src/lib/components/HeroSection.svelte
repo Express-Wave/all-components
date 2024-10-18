@@ -4,8 +4,7 @@
 	import Email from '$lib/icons/Email.svelte';
 	import Facebook from '$lib/icons/Facebook.svelte';
 
-	import "../../global.css";
-
+	import '../../global.css';
 </script>
 
 <section
@@ -14,10 +13,10 @@
 >
 	<div
 		id="hero-info"
-		class="col-span-1 col-start-2 row-span-1 row-start-1 w-full h-full min-h-full"
+		class="col-span-1 col-start-2 row-span-1 row-start-1 w-full h-full min-h-full debug-border"
 	>
 		<h1
-			class="md:font-semibold text-mono-100 font-outfitMedium font-bold text-left leading-tight mt-16 mb-8 md:mb-4 text-[3.75rem] md:text-7xl whitespace-none pt-[25vh] md:pt-[30vh]"
+			class="md:font-semibold text-mono-100 font-outfitMedium font-bold text-left leading-tight mt-16 mb-8 md:mb-4 text-[3.75rem] md:text-7xl whitespace-none pt-[16vh] md:pt-[30vh]"
 		>
 			Helping Others<br />
 			<a
@@ -80,9 +79,9 @@
 		id="contact-info"
 		class="hidden col-span-3 col-start-1 row-span-1 row-start-2 justify-center items-center w-full h-16 text-white bg-blue-700 md:flex"
 	>
-		<div class="grid items-center w-full custom-grid-cols">
+		<div class="grid items-center w-full h-full custom-grid-cols">
 			<div
-				class="flex flex-grow col-span-1 col-start-2 justify-evenly items-center border-4 border-purple-500"
+				class="flex flex-grow col-span-1 col-start-2 justify-between items-center h-full debug-border"
 			>
 				<Address />
 				<Phone />

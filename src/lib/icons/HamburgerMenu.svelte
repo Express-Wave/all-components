@@ -6,7 +6,7 @@
 	xmlns="http://www.w3.org/2000/svg"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	fill="none"
-    class={`h-${size} w-${size}`}
+    class={`h-${size} w-${size} p-2`}
 ><g
 		fill="none"
 		stroke="currentColor"
