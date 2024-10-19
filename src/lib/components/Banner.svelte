@@ -15,10 +15,10 @@
 {#if isBannerVisible}
 	<div
 		tabindex="-1"
-		class="${styling} grid custom-grid-cols gap-x-clamp grid-rows-auto row-span-1 z-50 place-items-center place-content-center col-span-3 col-start-1 w-full h-16 font-semibold bg-amber-300 text-mono-900"
+		class="${styling} grid custom-grid-cols gap-x-clamp grid-rows-auto row-span-1 z-50 place-items-center col-span-3 col-start-1 w-full h-20 md:h-16 font-semibold bg-amber-300 text-mono-700 "
 	>
 		<div
-			class="grid grid-cols-[3rem_1fr_3rem] max-w-[850px] gap-x-clamp col-span-3 col-start-1 row-span-1 row-start-1 w-full h-full place-content-center md:place-items-center"
+			class="grid grid-cols-[3rem_1fr_3rem] max-w-[95vw] md:max-w-[850px] gap-x-clamp col-span-3 col-start-1 row-span-1 row-start-1 w-full h-full place-content-center place-items-center "
 		>
 			<span
 				class="inline-flex col-span-1 col-start-1 justify-center items-center ml-2 w-8 h-8 bg-gray-200 rounded-full"
@@ -35,7 +35,7 @@
 			</a>
 
 			<!-- Close Button Column -->
-			<div class="flex justify-center items-center w-8">
+			<div class="flex col-span-1 col-start-3 justify-center items-center w-12 h-full">
 				<button
 					on:click={closeBanner}
 					type="button"

@@ -8,7 +8,7 @@
 </script>
 
 <header
-	class="{styling} absolute grid custom-grid-cols gap-x-clamp grid-rows-[1fr_auto] col-span-3 col-start-1 row-span-2 row-start-1 top-0 z-10 w-full h-[fit-content] max-h-[8rem] backdrop-blur-lg bg-transparent"
+	class="{styling} absolute grid custom-grid-cols gap-x-clamp grid-rows-[1fr_auto] col-span-3 col-start-1 row-span-2 row-start-1 top-0 z-10 w-full h-20 md:h-18 backdrop-blur-sm"
 >
 	<Banner bannerText="Register today for the 2024 Beacon Ladies Retreat" styling={mainWidth} />
 	<Navbar />

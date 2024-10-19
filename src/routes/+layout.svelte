@@ -2,6 +2,8 @@
 	import '../global.css';
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	export const prerender: boolean = true;
+	export const trailingSlash: string = 'always';
 
 	let fullWidthLayout: string = 'col-span-3 col-start-1';
 </script>

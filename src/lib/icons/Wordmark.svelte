@@ -4,7 +4,7 @@
 </script>
 
 <svg
-	class="h-12 w-[auto] md:ml-2"
+	class="h-12 w-[auto] md:ml-2 p-1"
 	xmlns="http://www.w3.org/2000/svg"
 	width="auto"
 	height="auto"

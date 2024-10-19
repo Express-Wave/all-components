@@ -16,7 +16,7 @@
 		class="col-span-1 col-start-2 row-span-1 row-start-1 w-full h-full min-h-full debug-border"
 	>
 		<h1
-			class="md:font-semibold text-mono-100 font-outfitMedium font-bold text-left leading-tight mt-16 mb-8 md:mb-4 text-[3.75rem] md:text-7xl whitespace-none pt-[16vh] md:pt-[30vh]"
+			class="md:font-semibold text-mono-100 font-bold text-left leading-tight mt-16 mb-8 md:mb-4 text-[3.75rem] md:text-7xl whitespace-none pt-[25vh] md:pt-[30vh]"
 		>
 			Helping Others<br />
 			<a

@@ -78,11 +78,11 @@
 }
 
 .gap-x-clamp {
-  gap: 0 clamp(0.45rem, 5vw, 0.75rem);
+  gap: 0 clamp(0.75rem, 5vw, 0.875rem);
 }
 
 .grid-cols-custom {
-  grid-template-columns: 1fr_minmax(clamp(1rem,6vw,3rem),850px)_1fr;
+  grid-template-columns: 1fr_minmax(clamp(0.75rem, 5vw, 0.875rem),850px)_1fr;
 }
 
 .custom-grid-cols {
