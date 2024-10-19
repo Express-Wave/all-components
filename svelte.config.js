@@ -17,7 +17,7 @@ const config = {
 			fallback: 'index.html'
 		}),
 		prerender: {
-			default: true
+			entries: ['*']
 		}
 	}
 };
