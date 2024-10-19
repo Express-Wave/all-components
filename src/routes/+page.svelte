@@ -1,9 +1,12 @@
 <script lang="ts">
 	import { getContext } from 'svelte';
-
 	import '../global.css';
 	import HeroSection from '$lib/components/HeroSection.svelte';
 	import DiscoverSection from '$lib/components/DiscoverSection.svelte';
+
+	export const prerender = true;
+	export const trailingSlash = 'always';
+	
 	const numberOfColumns: string = getContext('columnWidth');
 </script>
 
