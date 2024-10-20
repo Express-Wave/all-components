@@ -11,9 +11,12 @@
 		id="hero-info"
 		class="grid col-span-1 col-start-2 row-span-1 row-start-1 place-content-center w-full h-full min-h-full"
 	>
-		<span
-			class="col-span-3 col-start-1 w-full h-full text-8xl font-semibold text-white text center"
-			>Page Not Found</span
+		<h3
+			class="col-span-3 col-start-1 pt-20 w-full h-full text-7xl font-semibold text-white md:text-8xl text center"
+			>Page Not Found</h3
 		>
+		<a href="/">
+		<button >Return Home</button>
+		</a>
 	</div>
 </section>
