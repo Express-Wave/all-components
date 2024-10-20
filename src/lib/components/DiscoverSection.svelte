@@ -29,7 +29,7 @@
 					</a>
 					<!-- <enhanced:img -->
 					<img 
-						src="https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/pastor-garner_inCVxqsHs.jpg?updatedAt=1728804266725"
+						src="https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/mini-pastor-garner_FiOaKJ7bb.webp?updatedAt=1729398571290"
 						alt="Our Pastor"
 						class="w-full h-full object-cover rounded-[1.5rem]"
 					/>
@@ -37,7 +37,7 @@
 
 				<div
 					class="relative block w-full h-64 rounded-[1.5rem] overflow-hidden bg-cover bg-center border border-mono-800 transform transition-transform duration-300 ease-in-out hover:scale-105"
-					style="background-image: url('https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/ebc-beliefs_CrRXR9_Ya.png?updatedAt=1725244787443');"
+					style="background-image: url('https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/mini-ebc-beliefs_gGYNvMvjL.webp?updatedAt=1729398571868');"
 				>
 					<a
 						href="/about/history"
@@ -48,7 +48,7 @@
 				</div>
 				<div
 					class="relative block w-full h-64 rounded-[1.5rem] overflow-hidden bg-cover bg-center border border-mono-800 transform transition-transform duration-300 ease-in-out hover:scale-105"
-					style="background-image: url('https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/ebc-involvement_Y6QcJk2QL.png?updatedAt=1725244786473');"
+					style="background-image: url('https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/mini-ebc-involvement_mp7Evs0hb.webp?updatedAt=1729398571608');"
 				>
 					<a
 						href="/about/history"

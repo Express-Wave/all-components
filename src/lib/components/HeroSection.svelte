@@ -9,7 +9,7 @@
 
 <section
 	id="hero"
-	class="grid custom-grid-cols gap-x-clamp grid-rows-[1fr_auto] col-span-3 col-start-1 row-span-1 row-start-1 w-full h-[95vh] min-h-[800px] bg-[url('https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/ebc_hero-img_FfmkTZ5oY.png?updatedAt=1725141140840')] bg-cover bg-center"
+	class="grid custom-grid-cols gap-x-clamp grid-rows-[1fr_auto] col-span-3 col-start-1 row-span-1 row-start-1 w-full h-[95vh] min-h-[800px] bg-[url('https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/mini-ebc_hero_7Kjkq7MHZP.webp?updatedAt=1729398571353')] bg-cover bg-center"
 >
 	<div
 		id="hero-info"
