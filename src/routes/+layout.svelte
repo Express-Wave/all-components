@@ -10,7 +10,7 @@
 	}
 </script>
 
-<header class="flex sticky top-0 z-30 h-20 backdrop-blur-sm">
+<header class="flex sticky top-0 z-30 -mb-16 h-20 backdrop-blur-sm">
 	<nav class="absolute z-10 w-full border-b border-black/5 lg:border-transparent">
 		<div class="px-6 mx-auto max-w-5xl md:px-12 xl:px-6">
 			<div class="flex relative flex-wrap gap-6 justify-between items-center py-3 md:gap-0 md:py-4">
