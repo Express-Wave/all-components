@@ -15,7 +15,7 @@
 			<!-- HERO SECTION -->
 			<div class="flex-col items-center px-6 mx-auto w-full max-w-7xl md:px-12 xl:px-6">
 				<div class="relative flex-col items-center pt-36 ml-auto">
-					<div class="flex-col items-center mx-auto w-1/2 text-center lg:w-2/3">
+					<div class="flex-col items-center mx-auto w-full text-center md:w-1/2 lg:w-2/3">
 						<h1 class="text-5xl font-bold text-gray-900 md:text-6xl xl:text-7xl">
 							<span
 								class="animate-fade-up animate-duration-700 animate-delay-500 animate-ease-linear"
@@ -295,7 +295,7 @@
 			class="flex absolute inset-0 flex-col justify-center items-center space-y-4 text-white bg-black bg-opacity-50"
 		>
 			<h1 class="md:text-4xl md:font-bold">Featured Sermon</h1>
-			<p class="md:text-center md:mx-auto md:w-6/12">
+			<p class="hidden text-center md:visible md:mx-auto md:w-6/12">
 				Quam hic dolore cumque voluptate rerum beatae et quae, tempore sunt, debitis dolorum officia
 				aliquid explicabo? Excepturi, voluptate?
 			</p>
