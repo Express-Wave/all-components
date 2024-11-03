@@ -16,7 +16,7 @@
 			<div class="flex relative flex-wrap gap-6 justify-between items-center py-3 md:gap-0 md:py-4">
 				<div class="flex relative z-20 justify-between w-full md:px-0 lg:w-max">
 					<a href="/#home" class="flex items-center h-full">
-						<img src="src/lib/assets/ebc-logo-new-large.png" alt="logo" class="w-11 h-11" />
+						<img src="https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/ebc-logo-new-large_WrsHKgywk.png?updatedAt=1730625294622" alt="logo" class="w-11 h-11" />
 						<svg
 							class="h-12 w-[auto] text-mono-900 md:ml-2 p-1"
 							xmlns="http://www.w3.org/2000/svg"

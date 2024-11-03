@@ -210,7 +210,7 @@
 				>
 					<div class="overflow-hidden relative rounded-xl">
 						<img
-							src="src/lib/assets/bible-study.jpeg"
+							src="https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/bible-study_yGo1gIIPF.jpeg?updatedAt=1730625294805"
 							alt="art cover"
 							loading="lazy"
 							width="1000"
@@ -246,7 +246,7 @@
 				>
 					<div class="overflow-hidden relative rounded-xl">
 						<img
-							src="src/lib/assets/children-ministry.jpg"
+							src="https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/children-ministry_csc99yE_h1.jpg?updatedAt=1730625297176"
 							alt="art cover"
 							loading="lazy"
 							width="1000"
