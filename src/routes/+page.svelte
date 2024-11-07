@@ -18,24 +18,23 @@
 					<div class="flex-col items-center mx-auto w-full text-center md:w-1/2 lg:w-2/3">
 						<h1 class="text-5xl font-bold text-gray-900 md:text-6xl xl:text-7xl">
 							<span
-								class="animate-fade-up animate-duration-700 animate-delay-500 animate-ease-linear"
+								class="animate-fade-up animate-duration-700 animate-delay-1500 animate-ease-linear"
 								>Truth.</span
 							>
 							<br />
 							<span
-								class="animate-fade-up animate-duration-700 animate-delay-900 animate-ease-linear"
+								class="animate-fade-up animate-duration-700 animate-delay-500 animate-ease-linear"
 								>Hope.</span
 							>
 							<br />
 							<span
-								class="animate-fade-up animate-duration-700 animate-delay-1300 animate-ease-linear"
+								class="animate-fade-up animate-duration-700 animate-delay-1000 animate-ease-linear"
 								>Community.</span
 							>
 						</h1>
 
 						<p class="mt-8 text-gray-700">
-							Emmanuel Baptist Church, a place for you offering timeless truth, lasting hope, and
-							vibrant community in Jesus.
+							A loving church in La Grange, NC that believes in the life-changing power of Jesus. Sharing His truth, and hope at church and in our community.
 						</p>
 						<!-- CALL-TO-ACTION BUTTONS -->
 						<div class="flex flex-wrap gap-y-4 gap-x-6 justify-center mt-16">
@@ -56,7 +55,7 @@
 							</a>
 						</div>
 						<!-- INFORMATION SUBSECTION -->
-						<div class="gap-x-12 justify-evenly py-8 mt-16 w-full border-gray-200 border-y sm:flex">
+						<div class="gap-x-12 justify-evenly py-8 mt-16 w-full border-t border-gray-200 sm:flex">
 							<div class="text-center grow min-w-[300px]">
 								<h6 class="mb-4 font-semibold text-gray-700 text-md">Service Times</h6>
 								<div class="p-6 rounded-lg border border-gray-200">
@@ -128,7 +127,7 @@
 											</a>
 										</li>
 										<li class="flex flex-col text-left md:flex-row md:justify-between">
-											<a href="mailto:ebclg@ebclg.org">
+											<a href="mailto:info@emmanuelbaptistnc.org">
 												<div class="flex items-center space-x-2 cursor-pointer hover:underline">
 													<svg
 														class="h-8 max-w-[1.5rem]"
@@ -145,7 +144,7 @@
 														></path>
 														<path fill="currentColor" d="M4 6.5l6 4l6-4V5l-6 4l-6-4v1.5z"></path>
 													</svg>
-													<p>Email: ebclg@ebclg.org</p>
+													<p>Email: info@emmanuelbaptistnc.org</p>
 												</div>
 											</a>
 										</li>
@@ -160,7 +159,7 @@
 	</section>
 	<section id="discover" class="mt-40">
 		<div class="px-6 mx-auto max-w-8xl md:px-12 xl:px-6">
-			<div class="flex-col items-center mx-auto w-1/2 text-center lg:w-2/3">
+			<div class="flex-col items-center mx-auto mb-16 w-full text-center md:w-1/2 lg:w-2/3">
 				<h2 class="mt-8 text-3xl font-bold text-gray-700 md:text-4xl">Discover Emmanuel</h2>
 				<p class="my-8 text-gray-700">
 					Quam hic dolore cumque voluptate rerum beatae et quae, tempore sunt, debitis dolorum
@@ -169,7 +168,7 @@
 			</div>
 			<div class="grid gap-8 max-w-5xl md:grid-cols-2 lg:grid-cols-3">
 				<a
-					href="/about#pastor"
+					href="/about#our-pastor"
 					class="p-6 bg-white bg-opacity-50 rounded-3xl border border-gray-100 shadow-2xl cursor-pointer group sm:p-8 shadow-gray-600/10"
 				>
 					<div class="overflow-hidden relative rounded-xl">
@@ -205,7 +204,43 @@
 					</div>
 				</a>
 				<a
-					href="/about"
+					href="/about#ministries"
+					class="p-6 bg-white bg-opacity-50 rounded-3xl border border-gray-100 shadow-2xl cursor-pointer group sm:p-8 shadow-gray-600/10"
+				>
+					<div class="overflow-hidden relative rounded-xl">
+						<img
+							src="https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/children-ministry_csc99yE_h1.jpg?updatedAt=1730625297176"
+							alt="art cover"
+							loading="lazy"
+							width="1000"
+							height="667"
+							class="object-cover object-top w-full h-64 transition duration-500 group-hover:scale-105"
+						/>
+					</div>
+					<div class="mt-6 group relative bg-white transition hover:z-[1">
+						<h3 class="text-2xl font-semibold text-gray-800">Ministries</h3>
+						<p class="mt-6 mb-8 text-gray-600 dark:text-gray-300">
+							Learn more about our opportunities for service
+						</p>
+						<span class="flex justify-between items-center group-hover:text-mono-900">
+							<span class="capitalize text-info">Learn more</span>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="w-5 h-5 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
+									clip-rule="evenodd"
+								></path>
+							</svg>
+						</span>
+					</div>
+				</a>
+				<a
+					href="/about#beliefs"
 					class="p-6 bg-white bg-opacity-50 rounded-3xl border border-gray-100 shadow-2xl cursor-pointer group sm:p-8 shadow-gray-600/10"
 				>
 					<div class="overflow-hidden relative rounded-xl">
@@ -240,42 +275,6 @@
 						</span>
 					</div>
 				</a>
-				<a
-					href="/about"
-					class="p-6 bg-white bg-opacity-50 rounded-3xl border border-gray-100 shadow-2xl cursor-pointer group sm:p-8 shadow-gray-600/10"
-				>
-					<div class="overflow-hidden relative rounded-xl">
-						<img
-							src="https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/children-ministry_csc99yE_h1.jpg?updatedAt=1730625297176"
-							alt="art cover"
-							loading="lazy"
-							width="1000"
-							height="667"
-							class="object-cover object-top w-full h-64 transition duration-500 group-hover:scale-105"
-						/>
-					</div>
-					<div class="mt-6 group relative bg-white transition hover:z-[1">
-						<h3 class="text-2xl font-semibold text-gray-800">Ministries</h3>
-						<p class="mt-6 mb-8 text-gray-600 dark:text-gray-300">
-							Senior Pastor of Emmanuel Baptist Church
-						</p>
-						<span class="flex justify-between items-center group-hover:text-mono-900">
-							<span class="capitalize text-info">Learn more</span>
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								class="w-5 h-5 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"
-							>
-								<path
-									fill-rule="evenodd"
-									d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
-									clip-rule="evenodd"
-								></path>
-							</svg>
-						</span>
-					</div>
-				</a>
 			</div>
 		</div>
 	</section>
@@ -290,12 +289,11 @@
 			<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
 			Your browser does not support the video tag.
 		</video>
-		<div class="absolute inset-0 bg-white bg-opacity-50"></div>
+		<!-- <div class="absolute inset-0 bg-white bg-opacity-50"></div> -->
 		<div
 			class="flex absolute inset-0 flex-col justify-center items-center space-y-4 text-white bg-black bg-opacity-50"
 		>
-			<h1 class="md:text-4xl md:font-bold">Featured Sermon</h1>
-			<p class="hidden text-center md:visible md:mx-auto md:w-6/12">
+			<p class="hidden text-center md:block md:mx-auto md:w-6/12">
 				Quam hic dolore cumque voluptate rerum beatae et quae, tempore sunt, debitis dolorum officia
 				aliquid explicabo? Excepturi, voluptate?
 			</p>
@@ -305,6 +303,15 @@
 					>View Past Sermons</button
 				>
 			</a>
+		</div>
+	</section>
+	<section>
+		<div class="flex-col items-center mx-auto w-full text-center md:w-1/2 lg:w-2/3">
+			<h2 class="mt-8 text-3xl font-bold text-gray-700 md:text-4xl">Upcoming Events</h2>
+			<p class="my-8 text-gray-700">
+				Quam hic dolore cumque voluptate rerum beatae et quae, tempore sunt, debitis dolorum
+				officia aliquid explicabo? Excepturi, voluptate?
+			</p>
 		</div>
 	</section>
 </div>

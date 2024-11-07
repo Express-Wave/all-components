@@ -60,12 +60,13 @@
 		<div
 			class="flex flex-col items-start mt-12 space-y-4 md:flex-row md:space-y-0 md:space-x-4 md:items-center font-outfitMedium"
 		>
-			<button
+			<a href="/plan-your-visit"><button
 				type="button"
 				class="text-white rounded-full text-xl py-2.5 px-5 text-center me-2 w-[95%] md:max-w-[275px] h-16 bg-theme-900 font-heading-medium focus:outline-none focus:ring-4 focus:ring-blue-300 transform transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-gradient-to-tr hover:from-blue-600 hover:to-cyan-500 hover:text-white"
 			>
 				Plan Your Visit
 			</button>
+			</a>
 			<button
 				type="button"
 				class="text-white py-2.5 px-5 text-center me-2 text-xl focus:outline-none backdrop-blur-sm rounded-full border border-mono-200 hover:bg-gray-100 hover:text-theme-900 focus:z-3 focus:ring-4 focus:ring-gray-100 w-[95%] md:max-w-[275px] h-16 transform transition-transform duration-300 ease-in-out hover:scale-105"
