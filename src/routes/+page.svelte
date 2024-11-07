@@ -86,7 +86,7 @@
 												target="_blank"
 												rel="noopener noreferrer"
 											>
-												<div class="flex items-center space-x-2 cursor-pointer hover:underline">
+												<div class="flex items-center space-x-4 cursor-pointer hover:underline">
 													<svg
 														class="h-8 max-w-[1.5rem]"
 														xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +107,7 @@
 										</li>
 										<li class="flex flex-col text-left md:flex-row md:justify-between">
 											<a href="tel:+12525662170">
-												<div class="flex items-center space-x-2 cursor-pointer hover:underline">
+												<div class="flex items-center space-x-4 cursor-pointer hover:underline">
 													<svg
 														class="h-8 max-w-[1.5rem]"
 														xmlns="http://www.w3.org/2000/svg"
@@ -122,13 +122,13 @@
 															clip-rule="evenodd"
 														></path>
 													</svg>
-													<p>Phone: (252) 566-2170</p>
+													<p>(252) 566-2170</p>
 												</div>
 											</a>
 										</li>
 										<li class="flex flex-col text-left md:flex-row md:justify-between">
 											<a href="mailto:info@emmanuelbaptistnc.org">
-												<div class="flex items-center space-x-2 cursor-pointer hover:underline">
+												<div class="flex items-center space-x-4 cursor-pointer hover:underline">
 													<svg
 														class="h-8 max-w-[1.5rem]"
 														xmlns="http://www.w3.org/2000/svg"
@@ -144,7 +144,7 @@
 														></path>
 														<path fill="currentColor" d="M4 6.5l6 4l6-4V5l-6 4l-6-4v1.5z"></path>
 													</svg>
-													<p>Email: info@emmanuelbaptistnc.org</p>
+													<p>info@emmanuelbaptistnc.org</p>
 												</div>
 											</a>
 										</li>

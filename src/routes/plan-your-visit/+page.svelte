@@ -7,7 +7,7 @@
 	const ACCESS_KEY: string = 'c585df36-f878-451f-918b-dc23e8941a76';
 </script>
 
-<div id="main" class="flex flex-col justify-center mt-40 grow min-h-80">
+<div id="main" class="flex flex-col justify-center mt-0 grow min-h-80">
 	<section
 		id=""
 		class="data-[size=md]:scale-[0.8] data-[size=sm]:scale-75 w-screen relative ease-in-out flex transition-all duration-700 will-change-auto items-center flex-col space-y-40"
