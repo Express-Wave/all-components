@@ -28,7 +28,7 @@
 		{
 			title: `Children's Ministry`,
 			description: [
-				'Children are close to the heart of Emmanuel. As the future leaders of our church and community, we see it as one of our highest duties to teach the ways of God to the children of our church and to encourage them to live for Him. There are age appropriate classes for children ages 3-12 during the Sunday and Wednesday night services. These classes are lead by capable and engaging teachers that desire to impact and encourage your child for Jesus Christ. There are also monthly activities, allowing children to actively participate in church life.'
+				'Children are close to the heart of Emmanuel. As the future leaders of our church and community, we see it as one of our highest duties to teach the ways of God to the children of our church and to encourage them to live for Him. There are age appropriate classes for children ages 3-12 during the Sunday School and Sunday morning services. These classes are lead by capable and engaging teachers that desire to impact and encourage your child for Jesus Christ.'
 			]
 		},
 		{
@@ -42,7 +42,7 @@
 		{
 			title: `Outreach`,
 			description: [
-				'At Emmanuel Church, we have a passion to reach our community, our country, and those around the world with the Gospel (Acts 1:8). Locally, we accomplish this through our Bus ministry, Teen Soul Winning, and Church wide Soul Winning. Abroad, we accomplish this through our support of many Missionaries. Currently, we support works in Fayetteville, NC, Moldova, Venezuela, Panama, and China. In addition to supporting these works, we also support FBN radio which has a reach spanning the globe.'
+				`At Emmanuel Church, we have a passion to reach our community, our country, and those around the world with the Gospel (Acts 1:8). Locally, we accomplish this through our Bus ministry, and Church wide Soul Winning. Abroad, we accomplish this through our support of many Missionaries. Currently, we support works in Moldova, Venezuela, Panama, China, India, Brazil, and a Children's Home in Brazil. In addition to supporting these works, we also support FBN radio which has a reach spanning the globe.`
 			]
 		},
 		{
