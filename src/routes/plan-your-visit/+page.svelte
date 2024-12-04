@@ -13,10 +13,8 @@
 		class="data-[size=md]:scale-[0.8] data-[size=sm]:scale-75 w-screen relative ease-in-out flex transition-all duration-700 will-change-auto items-center flex-col space-y-40"
 	>
 		<div class="relative">
-			<div
-				aria-hidden="true"
-				class="grid absolute inset-0 grid-cols-2 m-auto -space-x-52 w-full opacity-40 h-max dark:opacity-20"
-			>
+			<!-- GRADIENTS -->
+			<div aria-hidden="true" class="grid absolute inset-0 grid-cols-2 -space-x-52 opacity-40">
 				<div class="blur-[106px] h-56 bg-gradient-to-br from-theme-800 to-purple-400"></div>
 				<div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300"></div>
 			</div>

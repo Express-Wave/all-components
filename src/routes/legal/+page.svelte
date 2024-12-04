@@ -4,10 +4,8 @@
 		class="data-[size=md]:scale-[0.8] data-[size=sm]:scale-75 w-screen relative ease-in-out flex transition-all duration-700 will-change-auto items-center flex-col space-y-40"
 	>
 		<div class="relative">
-			<div
-				aria-hidden="true"
-				class="grid absolute inset-0 grid-cols-2 m-auto -space-x-52 w-full opacity-40 h-max dark:opacity-20"
-			>
+			<!-- GRADIENTS -->
+			<div aria-hidden="true" class="grid absolute inset-0 grid-cols-2 -space-x-52 opacity-40">
 				<div class="blur-[106px] h-56 bg-gradient-to-br from-theme-800 to-purple-400"></div>
 				<div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300"></div>
 			</div>
@@ -44,7 +42,7 @@
 				using this website ("Site"), you agree to comply with and be bound by these Terms of Use. If
 				you do not agree to these terms, please refrain from using the Site.
 			</p>
-			
+
 			<h3 class="my-10 text-xl font-bold text-center text-mono-800 md:text-2xl">2. Site Usage</h3>
 
 			<p class="text-base text-left text-gray-600">
@@ -125,8 +123,9 @@
 				9. Governing Law
 			</h3>
 			<p class="text-base text-left text-gray-600">
-				These Terms of Use are governed by the laws of your jurisdiction, and any disputes relating to these terms will be subject to the exclusive jurisdiction of
-				the courts located in your jurisdiction.
+				These Terms of Use are governed by the laws of your jurisdiction, and any disputes relating
+				to these terms will be subject to the exclusive jurisdiction of the courts located in your
+				jurisdiction.
 			</p>
 
 			<h3 class="my-10 text-xl font-bold text-center text-mono-800 md:text-2xl">
@@ -142,7 +141,9 @@
 		id="privacy-policy"
 		class="data-[size=md]:scale-[0.8] data-[size=sm]:scale-75 w-screen relative ease-in-out flex transition-all duration-700 will-change-auto items-center flex-col mb-20"
 	>
-		<div class="flex-col items-center p-4 mx-auto mt-16 mb-0 space-y-8 w-full max-w-4xl text-center">
+		<div
+			class="flex-col items-center p-4 mx-auto mt-16 mb-0 space-y-8 w-full max-w-4xl text-center"
+		>
 			<h2
 				class="p-8 text-2xl font-black text-center text-gray-800 border-b border-gray-200 md:text-3xl"
 			>
@@ -162,7 +163,7 @@
 				information collected in aggregate form. By using our website, you agree to this policy.
 			</p>
 
-            <p class="text-base text-left text-gray-600">
+			<p class="text-base text-left text-gray-600">
 				If you have any questions or concerns about this policy, please contact us at:
 				<span class="text-base text-left text-gray-900">info@emmanuelbaptistnc.org</span>
 			</p>
