@@ -325,7 +325,7 @@
 				You can give by cash or check in any of our services or at our church office throughout the week.
 			</p>
 		</div>
-		<div class="flex-col justify-center items-center mx-auto mb-16 space-y-8 w-full text-center md:w-1/4">
+		<div class="flex-col justify-center items-center px-4 mx-auto mb-16 space-y-8 w-full text-center md:w-1/4">
 			<h4 class="text-xl font-semibold text-center">Ways to give</h4>
 			<div class="flex items-center p-6 rounded-lg border-2 border-gray-800">
 				<div class="flex justify-center items-center p-2 w-10 h-10 bg-gray-800 rounded-full">
@@ -342,7 +342,7 @@
 						/>
 					</svg>
 				</div>
-				<h2 class="ml-4 text-2xl font-black">On Campus</h2>
+				<h2 class="ml-4 text-lg font-black md:text-2xl">On Campus</h2>
 			</div>
 			<div class="flex items-center p-6 rounded-lg border-2 border-gray-600">
 				<div class="flex justify-center items-center p-2 w-10 h-10 bg-gray-600 rounded-full">
@@ -359,7 +359,7 @@
 						/>
 					</svg>
 				</div>
-				<h2 class="ml-4 text-2xl font-black text-gray-800">By Mail</h2>
+				<h2 class="ml-4 text-lg font-black text-gray-800 md:text-2xl">By Mail</h2>
 			</div>
 			<div class="flex items-center p-6 rounded-lg border-2 border-gray-400">
 				<div class="flex justify-center items-center p-2 w-10 h-10 bg-gray-400 rounded-full">
@@ -376,7 +376,7 @@
 						/>
 					</svg>
 				</div>
-				<h2 class="ml-4 text-2xl font-black text-gray-700">Online (Coming Soon)</h2>
+				<h2 class="ml-4 text-lg font-black text-gray-700 md:text-2xl">Online (Coming Soon)</h2>
 			</div>
 		</div>
 	</section>
