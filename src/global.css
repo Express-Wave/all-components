@@ -77,6 +77,11 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 .gap-x-clamp {
   gap: 0 clamp(1rem, 6vw, 3rem);
 }

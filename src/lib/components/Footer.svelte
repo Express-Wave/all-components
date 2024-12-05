@@ -9,15 +9,15 @@
 </script>
 
 <footer
-	class={`${styling} grid grid-cols-[1fr_minmax(clamp(1rem,6vw,3rem),80ch)_1fr] gap-x-[clamp(1rem,6vw,3rem)]`}
+	class={`${styling} grid grid-cols-[1fr_minmax(clamp(1rem,6vw,3rem),80ch)_1fr] gap-x-[clamp(1rem,6vw,3rem)] py-12`}
 >
-	<div class="col-span-1 col-start-2 p-4 py-6 mx-auto w-full lg:py-8">
+	<div class="col-span-1 col-start-2 mx-auto w-full">
 		<div
-			class="grid grid-cols-1 gap-y-8 grid-rows-[75px_auto_auto_auto] md:grid-cols-2 md:grid-rows-[75px_auto_auto]"
+			class="grid grid-cols-1 gap-y-8 grid-rows-[75px_auto_auto_auto] md:grid-cols-2 md:grid-rows-[75px_auto_auto] "
 		>
-			<div class="col-start-1 row-start-1 mb-6 md:mb-0">
+			<div class="col-start-1 row-start-1 w-full h-full">
 				<a href="https://flowbite.com/" class="flex items-center">
-					<Logo size={10} />
+					<Logo size={16} />
 					<span class="pl-4"></span>
 					<Wordmark topLineTextColor="white" bottomLineTextColor="#FAFAFA" />
 				</a>
@@ -134,7 +134,9 @@
 		<div class="pb-8 sm:flex sm:items-center sm:justify-between">
 			<span class="text-sm text-gray-200 sm:text-center"
 				>© {currentYear}
-				<a href="https://flowbite.com/" class="hover:underline">Emmanuel Baptist Church</a>. All
+				<a href="https://emmanuelbaptistnc.org/" class="hover:underline">Emmanuel Baptist Church</a>. 
+                <br class="md:hidden" />
+                All
 				Rights Reserved.
 			</span>
 			<div class="flex mt-4 sm:justify-center sm:mt-0">

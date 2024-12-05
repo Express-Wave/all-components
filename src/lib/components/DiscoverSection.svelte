@@ -1,6 +1,6 @@
 <section
 	id="discover"
-	class="grid custom-grid-cols gap-x-clamp grid-rows-[1fr_auto] col-span-3 col-start-1 row-span-1 row-start-1 w-full md:min-h-[95vh] md:h-[600px] pb-8 bg-theme-100 bg-[url('https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/mini-ebc-discover-background_3OCmD02l6.webp?updatedAt=1729404256513')] bg-center"
+	class="grid custom-grid-cols gap-x-clamp grid-rows-[1fr_auto] col-span-3 col-start-1 row-span-1 row-start-1 w-full md:min-h-[95vh] md:h-[600px] py-8 bg-theme-100 bg-[url('https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/mini-ebc-discover-background_3OCmD02l6.webp?updatedAt=1729404256513')] bg-center"
 >
 	<div
 		class="col-span-1 col-start-2 row-span-1 row-start-1 py-16 w-full h-full md:py-2 debug-border"
