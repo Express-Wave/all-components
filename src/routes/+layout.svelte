@@ -308,7 +308,9 @@
 		<hr class="my-12 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 		<div class="pb-8 sm:flex sm:items-center sm:justify-between">
 			<p class="flex flex-wrap text-base leading-relaxed text-gray-200 sm:text-center">
-				<span class="mr-2 whitespace-nowrap">© 2024 Emmanuel Baptist Church.</span> All Rights Reserved. <a
+				<span class="mr-2 whitespace-nowrap">© 2024 Emmanuel Baptist Church.</span>
+				 All Rights Reserved. 
+				<a
 					href="/legal#privacy-policy"
 					class="mx-2 underline cursor-pointer hover:text-sky-300">Privacy Policy </a
 				> & <a href="/legal#terms-of-service" class="ml-2 underline cursor-pointer hover:text-sky-300"

@@ -163,141 +163,137 @@
 	<!-- /**********/ DISCOVER SECTION /**********/ -->
 	<section id="discover" class="pt-20 w-screen border-t border-gray-200">
 		<div class="flex flex-col items-center px-6 mx-auto max-w-8xl md:px-12 xl:px-6">
-		  <!-- Header Section -->
-		  <div class="mx-auto mb-16 text-center md:w-1/2 lg:w-2/3">
-			<h2 class="mt-8 text-3xl font-bold text-gray-700 md:text-4xl">Discover Emmanuel</h2>
-			<p class="my-8 text-gray-700">Learn more about who we are, how we serve God and others, and what we believe</p>
-		  </div>
-		  <!-- Cards Section -->
-		  <div class="grid gap-8 justify-center items-center max-w-5xl md:grid-cols-2 lg:grid-cols-3">
-			<!-- Card 1 -->
-			<a
-			  href="/about#our-pastor"
-			  class="p-6 bg-white bg-opacity-50 rounded-2xl border border-gray-100 shadow-2xl cursor-pointer group sm:p-8 shadow-gray-600/10"
-			>
-			  <div class="overflow-hidden relative rounded-md">
-				<img
-				  src="https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/mini-pastor-garner_FiOaKJ7bb.webp?updatedAt=1729398571290"
-				  alt="art cover"
-				  loading="lazy"
-				  width="1000"
-				  height="667"
-				  class="object-cover object-top w-full h-64 transition duration-500 group-hover:scale-105"
-				/>
-			  </div>
-			  <div class="mt-6 group relative bg-white transition hover:z-[1]">
-				<h3 class="text-2xl font-semibold text-gray-800">Leadership</h3>
-				<p class="mt-6 mb-8 text-gray-600 dark:text-gray-300">
-				  Pastor Ricky Garner, Senior Pastor of Emmanuel Baptist Church
+			<!-- Header Section -->
+			<div class="mx-auto mb-16 text-center md:w-1/2 lg:w-2/3">
+				<h2 class="mt-8 text-3xl font-bold text-gray-700 md:text-4xl">Discover Emmanuel</h2>
+				<p class="my-8 text-gray-700">
+					Learn more about who we are, how we serve God and others, and what we believe
 				</p>
-				<span class="flex justify-between items-center group-hover:text-mono-900">
-				  <span class="capitalize text-info">Learn more</span>
-				  <svg
-					xmlns="http://www.w3.org/2000/svg"
-					viewBox="0 0 24 24"
-					fill="currentColor"
-					class="w-5 h-5 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"
-				  >
-					<path
-					  fill-rule="evenodd"
-					  d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
-					  clip-rule="evenodd"
-					></path>
-				  </svg>
-				</span>
-			  </div>
-			</a>
-			<!-- Card 2 -->
-			<a
-			  href="/about#ministries"
-			  class="p-6 bg-white bg-opacity-50 rounded-2xl border border-gray-100 shadow-2xl cursor-pointer group sm:p-8 shadow-gray-600/10"
-			>
-			  <div class="overflow-hidden relative rounded-xl">
-				<img
-				  src="https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/children-ministry_csc99yE_h1.jpg?updatedAt=1730625297176"
-				  alt="art cover"
-				  loading="lazy"
-				  width="1000"
-				  height="667"
-				  class="object-cover object-top w-full h-64 transition duration-500 group-hover:scale-105"
-				/>
-			  </div>
-			  <div class="mt-6 group relative bg-white transition hover:z-[1]">
-				<h3 class="text-2xl font-semibold text-gray-800">Ministries</h3>
-				<p class="mt-6 mb-8 text-gray-600 dark:text-gray-300">
-				  Learn how we serve God in our community and around the world
-				</p>
-				<span class="flex justify-between items-center group-hover:text-mono-900">
-				  <span class="capitalize text-info">Learn more</span>
-				  <svg
-					xmlns="http://www.w3.org/2000/svg"
-					viewBox="0 0 24 24"
-					fill="currentColor"
-					class="w-5 h-5 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"
-				  >
-					<path
-					  fill-rule="evenodd"
-					  d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
-					  clip-rule="evenodd"
-					></path>
-				  </svg>
-				</span>
-			  </div>
-			</a>
-			<!-- Card 3 -->
-			<a
-			  href="/about#beliefs"
-			  class="p-6 bg-white bg-opacity-50 rounded-2xl border border-gray-100 shadow-2xl cursor-pointer group sm:p-8 shadow-gray-600/10"
-			>
-			  <div class="overflow-hidden relative rounded-xl">
-				<img
-				  src="https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/bible-study_yGo1gIIPF.jpeg?updatedAt=1730625294805"
-				  alt="art cover"
-				  loading="lazy"
-				  width="1000"
-				  height="667"
-				  class="object-cover object-top w-full h-64 transition duration-500 group-hover:scale-105"
-				/>
-			  </div>
-			  <div class="mt-6 group relative bg-white transition hover:z-[1]">
-				<h3 class="text-2xl font-semibold text-gray-800">Beliefs</h3>
-				<p class="mt-6 mb-8 text-gray-600 dark:text-gray-300">
-				  A brief summary of who we are as defined by what we believe
-				</p>
-				<span class="flex justify-between items-center group-hover:text-mono-900">
-				  <span class="capitalize text-info">Learn more</span>
-				  <svg
-					xmlns="http://www.w3.org/2000/svg"
-					viewBox="0 0 24 24"
-					fill="currentColor"
-					class="w-5 h-5 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"
-				  >
-					<path
-					  fill-rule="evenodd"
-					  d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
-					  clip-rule="evenodd"
-					></path>
-				  </svg>
-				</span>
-			  </div>
-			</a>
-		  </div>
+			</div>
+			<!-- Cards Section -->
+			<div class="grid gap-8 justify-center items-center max-w-5xl md:grid-cols-2 lg:grid-cols-3">
+				<!-- Card 1 -->
+				<a
+					href="/about#our-pastor"
+					class="p-6 bg-white bg-opacity-50 rounded-2xl border border-gray-100 shadow-2xl cursor-pointer group sm:p-8 shadow-gray-600/10"
+				>
+					<div class="overflow-hidden relative rounded-md">
+						<img
+							src="https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/mini-pastor-garner_FiOaKJ7bb.webp?updatedAt=1729398571290"
+							alt="art cover"
+							loading="lazy"
+							width="1000"
+							height="667"
+							class="object-cover object-top w-full h-64 transition duration-500 group-hover:scale-105"
+						/>
+					</div>
+					<div class="mt-6 group relative bg-white transition hover:z-[1]">
+						<h3 class="text-2xl font-semibold text-gray-800">Leadership</h3>
+						<p class="mt-6 mb-8 text-gray-600 dark:text-gray-300">
+							Pastor Ricky Garner, Pastor of Emmanuel Baptist Church
+						</p>
+						<span class="flex justify-between items-center group-hover:text-mono-900">
+							<span class="capitalize text-info">Learn more</span>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="w-5 h-5 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
+									clip-rule="evenodd"
+								></path>
+							</svg>
+						</span>
+					</div>
+				</a>
+				<!-- Card 2 -->
+				<a
+					href="/about#ministries"
+					class="p-6 bg-white bg-opacity-50 rounded-2xl border border-gray-100 shadow-2xl cursor-pointer group sm:p-8 shadow-gray-600/10"
+				>
+					<div class="overflow-hidden relative rounded-xl">
+						<img
+							src="https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/children-ministry_csc99yE_h1.jpg?updatedAt=1730625297176"
+							alt="art cover"
+							loading="lazy"
+							width="1000"
+							height="667"
+							class="object-cover object-top w-full h-64 transition duration-500 group-hover:scale-105"
+						/>
+					</div>
+					<div class="mt-6 group relative bg-white transition hover:z-[1]">
+						<h3 class="text-2xl font-semibold text-gray-800">Ministries</h3>
+						<p class="mt-6 mb-8 text-gray-600 dark:text-gray-300">
+							Learn how we serve God in our community and around the world
+						</p>
+						<span class="flex justify-between items-center group-hover:text-mono-900">
+							<span class="capitalize text-info">Learn more</span>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="w-5 h-5 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
+									clip-rule="evenodd"
+								></path>
+							</svg>
+						</span>
+					</div>
+				</a>
+				<!-- Card 3 -->
+				<a
+					href="/about#beliefs"
+					class="p-6 bg-white bg-opacity-50 rounded-2xl border border-gray-100 shadow-2xl cursor-pointer group sm:p-8 shadow-gray-600/10"
+				>
+					<div class="overflow-hidden relative rounded-xl">
+						<img
+							src="https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/bible-study_yGo1gIIPF.jpeg?updatedAt=1730625294805"
+							alt="art cover"
+							loading="lazy"
+							width="1000"
+							height="667"
+							class="object-cover object-top w-full h-64 transition duration-500 group-hover:scale-105"
+						/>
+					</div>
+					<div class="mt-6 group relative bg-white transition hover:z-[1]">
+						<h3 class="text-2xl font-semibold text-gray-800">Beliefs</h3>
+						<p class="mt-6 mb-8 text-gray-600 dark:text-gray-300">
+							The beliefs that guide our behaviors
+						</p>
+						<span class="flex justify-between items-center group-hover:text-mono-900">
+							<span class="capitalize text-info">Learn more</span>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="w-5 h-5 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
+									clip-rule="evenodd"
+								></path>
+							</svg>
+						</span>
+					</div>
+				</a>
+			</div>
 		</div>
-	  </section>
+	</section>
 	<!-- /**********/ MEDIA SECTION /**********/ -->
 	<section id="media" class="relative py-12 mt-40 w-screen bg-gray-200 border-y">
 		<div class="flex-col items-center mx-auto w-screen text-center md:w-3/4">
 			<h2 class="mt-8 text-3xl font-bold text-gray-700 md:text-4xl">Featured Media</h2>
-			<p class="my-8 mb-16 text-gray-700">
+			<p class="px-4 my-8 mb-16 text-gray-700">
 				The Christian's Role In Government by Pastor Ricky Garner
 			</p>
-			<video
-				class="object-cover pb-4 w-screen h-full rounded-xl"
-				autoplay
-				muted
-				loop
-				controls
-			>
+			<video class="object-cover pb-4 w-screen h-full rounded-xl" autoplay muted loop controls>
 				<source
 					src="https://pub-6221dcfef65c4b58b96f2c7c9868de3c.r2.dev/Christians-Role-In-Government.mp4"
 					type="video/mp4"
@@ -310,20 +306,78 @@
 	<section id="events" class="w-screen">
 		<div class="flex-col items-center mx-auto mb-16 w-full text-center md:w-1/2 lg:w-2/3">
 			<h2 class="mt-8 text-3xl font-bold text-gray-700 md:text-4xl">Upcoming Events</h2>
-			<p class="my-8 text-gray-700">
-				See what events are planned for the coming weeks. Join us as we grow in faith and fellowship together!
+			<p class="px-4 my-8 text-gray-700">
+				See what events are planned for the coming weeks. Join us as we grow in faith and fellowship
+				together!
 			</p>
 		</div>
 		<!-- <Calendar /> -->
 		<SmallCalendar />
 	</section>
 	<!-- /**********/ GIVE SECTION /**********/ -->
-	<section id="give" class="py-20 w-screen bg-sky-300">
-		<div class="flex-col items-center mx-auto mb-16 w-full text-center md:w-1/2 lg:w-2/3">
-			<h2 class="mt-8 text-3xl font-bold text-gray-700 md:text-4xl">Giving Info</h2>
-			<p class="my-8 text-gray-700">
-				See what events are planned for the coming weeks. Join us as we grow in faith and fellowship together!
+	<section id="give" class="items-center py-20 w-screen bg-sky-300">
+		<div class="flex-col items-center mx-auto mb-16 w-screen text-center md:w-1/2 lg:w-2/3">
+			<h2 class="mt-8 text-3xl font-bold text-gray-700 md:text-4xl">Giving</h2>
+			<h3 class="my-8 text-2xl text-gray-700">Your obedience and generosity is changing lives.</h3>
+			<p class="px-4 my-8 text-gray-700">
+				Our church's mission is funded solely by the giving of her members and regular attenders. <br
+				/>
+				You can give by cash or check in any of our services or at our church office throughout the week.
 			</p>
+		</div>
+		<div class="flex-col justify-center items-center mx-auto mb-16 space-y-8 w-full text-center md:w-1/4">
+			<h4 class="text-xl font-semibold text-center">Ways to give</h4>
+			<div class="flex items-center p-6 rounded-lg border-2 border-gray-800">
+				<div class="flex justify-center items-center p-2 w-10 h-10 bg-gray-800 rounded-full">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="w-6 h-6 text-white"
+						width="auto"
+						height="auto"
+						viewBox="0 0 256 256"
+					>
+						<path
+							fill="currentColor"
+							d="M227.09 146.86L190 124.6V104a6 6 0 0 0-3-5.21l-53-30.27V46h18a6 6 0 0 0 0-12h-18V16a6 6 0 0 0-12 0v18h-18a6 6 0 0 0 0 12h18v22.52L69 98.79a6 6 0 0 0-3 5.21v20.6l-37.09 22.26A6 6 0 0 0 26 152v64a6 6 0 0 0 6 6h80a6 6 0 0 0 6-6v-48a10 10 0 0 1 20 0v48a6 6 0 0 0 6 6h80a6 6 0 0 0 6-6v-64a6 6 0 0 0-2.91-5.14M38 155.4l28-16.8V210H38Zm90-9.4a22 22 0 0 0-22 22v42H78V107.48l50-28.57l50 28.57V210h-28v-42a22 22 0 0 0-22-22m90 64h-28v-71.4l28 16.8Z"
+						/>
+					</svg>
+				</div>
+				<h2 class="ml-4 text-2xl font-black">On Campus</h2>
+			</div>
+			<div class="flex items-center p-6 rounded-lg border-2 border-gray-600">
+				<div class="flex justify-center items-center p-2 w-10 h-10 bg-gray-600 rounded-full">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="w-6 h-6 text-white"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+					>
+						<path
+							fill="currentColor"
+							d="M8 12h2a1 1 0 0 0 0-2H8a1 1 0 0 0 0 2m9-6h-5V4h1a1 1 0 0 0 0-2h-2a1 1 0 0 0-1 1v3H7a4 4 0 0 0-4 4v6a1 1 0 0 0 1 1h6v4a1 1 0 0 0 2 0v-4h8a1 1 0 0 0 1-1v-6a4 4 0 0 0-4-4m-4 4v5H5v-5a2 2 0 0 1 2-2h6.56a3.9 3.9 0 0 0-.56 2m6 5h-4v-5a2 2 0 0 1 4 0Z"
+						/>
+					</svg>
+				</div>
+				<h2 class="ml-4 text-2xl font-black text-gray-800">By Mail</h2>
+			</div>
+			<div class="flex items-center p-6 rounded-lg border-2 border-gray-400">
+				<div class="flex justify-center items-center p-2 w-10 h-10 bg-gray-400 rounded-full">
+					<svg
+						class="w-6 h-6 text-black"
+						xmlns="http://www.w3.org/2000/svg"
+						width="16"
+						height="16"
+						viewBox="0 0 16 16"
+					>
+						<path
+							fill="currentColor"
+							d="M16 7.38A7.82 7.82 0 0 0 8 .5a7.82 7.82 0 0 0-8 6.88v1.24a7.82 7.82 0 0 0 8 6.88a7.82 7.82 0 0 0 8-6.88zm-1.25 0h-3a11.3 11.3 0 0 0-.43-2.54a7.6 7.6 0 0 0 1.75-1a6 6 0 0 1 1.65 3.54zm-9.18 0a9.7 9.7 0 0 1 .37-2.14A8.4 8.4 0 0 0 8 5.5a8.5 8.5 0 0 0 2.09-.26a10.2 10.2 0 0 1 .37 2.14zm4.92 1.24a9.6 9.6 0 0 1-.37 2.14a8.5 8.5 0 0 0-4.18 0a9.7 9.7 0 0 1-.37-2.14zm.4-5A12 12 0 0 0 10 2a6.9 6.9 0 0 1 2 1a6.6 6.6 0 0 1-1.14.66zm-2.6-1.86a10 10 0 0 1 1.38 2.3A7.6 7.6 0 0 1 8 4.25a7.6 7.6 0 0 1-1.67-.19a9.8 9.8 0 0 1 1.38-2.3zm-3.15 1.9A6.6 6.6 0 0 1 4 3a6.9 6.9 0 0 1 2-1a10.4 10.4 0 0 0-.86 1.66M3 3.83a7.6 7.6 0 0 0 1.75 1a11 11 0 0 0-.43 2.54h-3A6 6 0 0 1 3 3.83M1.28 8.62h3a11 11 0 0 0 .43 2.54a7.6 7.6 0 0 0-1.75 1a6 6 0 0 1-1.68-3.54m3.86 3.72A10.4 10.4 0 0 0 6 14a6.9 6.9 0 0 1-2-1a6.6 6.6 0 0 1 1.14-.66m2.57 1.9a9.8 9.8 0 0 1-1.38-2.3a7.4 7.4 0 0 1 3.34 0a9.8 9.8 0 0 1-1.38 2.3zm3.15-1.9a6.6 6.6 0 0 1 1.19.66a7.2 7.2 0 0 1-2 1a11.5 11.5 0 0 0 .81-1.66m2.14-.17a7.6 7.6 0 0 0-1.75-1a10.8 10.8 0 0 0 .43-2.54h3A6 6 0 0 1 13 12.17"
+						/>
+					</svg>
+				</div>
+				<h2 class="ml-4 text-2xl font-black text-gray-700">Online (Coming Soon)</h2>
+			</div>
 		</div>
 	</section>
 </div>

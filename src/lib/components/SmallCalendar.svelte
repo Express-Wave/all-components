@@ -47,14 +47,14 @@
 			{
 				date: '01/30/2025',
                 formattedDate: 'Thu, Jan 30',
-				time: '20:30',
+				time: '20:00',
 				title: "Marriage Retreat",
 				description: ''
 			},
             {
 				date: '01/31/2025',
                 formattedDate: 'Fri, Jan 31',
-				time: '10:30',
+				time: '11:15',
 				title: "Marriage Retreat",
 				description: ''
 			},
