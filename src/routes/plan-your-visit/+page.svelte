@@ -67,7 +67,7 @@
 	];
 </script>
 
-<div id="main" class="flex flex-col justify-center mt-0 grow min-h-80">
+<div id="main" class="flex overflow-x-hidden flex-col justify-center mt-0 grow min-h-80">
 	<section
 		class="data-[size=md]:scale-[0.8] data-[size=sm]:scale-75 w-screen relative z-10 ease-in-out flex transition-all duration-700 will-change-auto items-center flex-col"
 	>
@@ -91,7 +91,7 @@
 							Welcome! Our desire is that your visit to our church should be stress-free and
 							spiritually refreshing. To that end, we've created this page with answers to
 							frequently asked questions. If you don't see your question here: feel free to ask
-							using the <a href="/plan-your-visit#contact" class="underline">form below!</a>
+							using the <a href="/plan-your-visit#form" class="underline">form below!</a>
 						</h3>
 					</div>
 				</div>
@@ -188,7 +188,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="p-4 mx-auto mb-20 max-w-2xl">
+	<section id="form" class="p-4 mx-auto mb-20 max-w-2xl">
 		<div class="flex-col items-center px-6 mx-auto w-full max-w-7xl md:px-12 xl:px-6">
 			<div class="relative flex-col items-center pt-36 ml-auto">
 				<div class="flex-col items-center mx-auto w-full text-center md:w-1/2 lg:w-2/3">
