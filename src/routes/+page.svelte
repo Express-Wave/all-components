@@ -216,7 +216,7 @@
 				>
 					<div class="overflow-hidden relative rounded-xl">
 						<img
-							src="https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/children-ministry_csc99yE_h1.jpg?updatedAt=1730625297176"
+							src="https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/Church%20Fellowshipping_Dk0eKsE4a7.JPG?updatedAt=1733798803071"
 							alt="art cover"
 							loading="lazy"
 							width="1000"
@@ -253,7 +253,7 @@
 				>
 					<div class="overflow-hidden relative rounded-xl">
 						<img
-							src="https://ik.imagekit.io/bip1v395ybp/Emmanuel%20Baptist%20Church/bible-study_yGo1gIIPF.jpeg?updatedAt=1730625294805"
+							src="https://images.unsplash.com/photo-1499051775559-dcb9f02d2107?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 							alt="art cover"
 							loading="lazy"
 							width="1000"
