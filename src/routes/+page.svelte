@@ -325,7 +325,7 @@
 				You can give by cash or check in any of our services or at our church office throughout the week.
 			</p>
 		</div>
-		<div class="flex-col justify-center items-center px-4 mx-auto mb-16 space-y-8 w-full text-center md:w-1/4">
+		<div class="flex-col justify-center items-center px-4 mx-auto mb-16 space-y-8 w-full text-center md:w-1/3">
 			<h4 class="text-xl font-semibold text-center">Ways to give</h4>
 			<div class="flex items-center p-6 rounded-lg border-2 border-gray-800">
 				<div class="flex justify-center items-center p-2 w-10 h-10 bg-gray-800 rounded-full">
