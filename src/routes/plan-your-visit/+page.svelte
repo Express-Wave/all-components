@@ -88,11 +88,8 @@
 						</h1>
 
 						<h3 class="mt-8 text-lg text-gray-700">
-							Welcome! Our desire is that your visit to our church should be stress-free and
-							spiritually refreshing. To that end, we've created this page with answers to
-							frequently asked questions. If you don't see your question here: feel free to ask
-							using the <a href="/plan-your-visit#form" class="underline">form below!</a>
-						</h3>
+							Welcome! We’re so glad you’re considering visiting our church. Our goal is to make your experience as smooth and spiritually uplifting as possible. To help with that, we’ve gathered answers to some of the most common questions right here. If you don’t find what you're looking for or simply want to connect, please don’t hesitate to reach out through the <a href="/plan-your-visit#form" class="underline">form below</a> — we’d love to hear from you!
+						</h3>  
 					</div>
 				</div>
 			</div>
@@ -219,7 +216,7 @@
 				</Label>
 			</div>
 			<div class="mb-5">
-				<Label for="textarea-id" class="mb-2 capitalize">Your message/question*</Label>
+				<Label for="textarea-id" class="mb-2 capitalize">Your question/comment*</Label>
 				<!-- <Textarea id="textarea-id" placeholder="Your message/question" rows="4" name="message" class="p-2" required /> -->
 				<Textarea class="mb-4" id="textarea-id" name="message" rows="4" placeholder="Do you have visitor parking?">
 					<div slot="footer" class="flex justify-between items-center">
@@ -238,9 +235,9 @@
 			<input type="checkbox" name="botcheck" class="hidden" style="display: none;" />
 			<button
 				type="submit"
-				class="text-white rounded-full text-xl py-2.5 px-5 text-center me-2 w-[95%] md:max-w-[275px] h-14 bg-theme-900 font-heading-medium focus:outline-none focus:ring-4 focus:ring-blue-300 transform transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-gradient-to-tr hover:from-blue-600 hover:to-cyan-500 hover:text-white"
+				class="text-white rounded-full text-md md:text-lg py-2.5 px-6 text-center me-2 w-[95%] md:max-w-[300px] h-14 bg-theme-900 font-heading-medium focus:outline-none focus:ring-4 focus:ring-blue-300 transform transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-gradient-to-tr hover:from-blue-600 hover:to-cyan-500 hover:text-white justify-center"
 			>
-				Send Your Inquiry
+				Send Question/Comment
 			</button>
 		</form>
 	</section>
