@@ -39,7 +39,7 @@
 		'2025-01': [
 			{
 				date: '01/05/2025',
-				formattedDate: 'Sun, Jan 01',
+				formattedDate: 'Sun, Jan 05',
 				time: '18:30',
 				title: 'Vision Sunday',
 				description: ''
