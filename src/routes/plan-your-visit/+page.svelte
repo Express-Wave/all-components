@@ -4,7 +4,7 @@
 	// FORMSUBMIT, NUCLEUS GIVING, WEB3FORMS,
 	// ASTRO: https://preview.tailus.io/astrolus-free/
 
-	const ACCESS_KEY: string = 'c585df36-f878-451f-918b-dc23e8941a76';
+	const ACCESS_KEY: string = '1c04b16d-a4be-488d-a296-6261812c7378';
 
 	// Define a type for FAQ items
 	type FAQ = {
@@ -199,6 +199,7 @@
 			</div>
 		</div>
 		<form class="mx-auto max-w-xl" action="https://api.web3forms.com/submit" method="POST">
+			<input type="hidden" name="subject" value="New Submission from EBC Contact Form">
 			<input type="hidden" name="access_key" value={ACCESS_KEY} />
 			<div class="mb-5">
 				<Label class="space-y-2">
