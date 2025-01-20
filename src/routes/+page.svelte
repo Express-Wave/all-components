@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Calendar from '$lib/components/Calendar.svelte';
 	import SmallCalendar from '$lib/components/SmallCalendar.svelte';
 	import '../global.css';
 </script>
@@ -289,7 +288,7 @@
 	<!-- /**********/ MEDIA SECTION /**********/ -->
 	<section id="media" class="relative py-12 mt-40 w-screen bg-gray-200 border-y">
 		<div class="flex-col items-center mx-auto w-screen text-center md:w-3/4">
-			<h2 class="mt-8 text-3xl font-bold text-gray-700 md:text-4xl">Featured Media</h2>
+			<h2 class="my-8 text-3xl font-bold text-gray-700 md:text-4xl">Featured Sermon</h2>
 			<p class="px-4 my-8 mb-16 text-gray-700">
 				The Christian's Role In Government by Pastor Ricky Garner
 			</p>
@@ -300,6 +299,21 @@
 				/>
 				Your browser does not support the video tag.
 			</video>
+			<!-- <div style="position:relative;overflow:hidden;padding-top:56.25%;">
+				<iframe
+					allow="autoplay; fullscreen"
+					allowfullscreen="true"
+					class="resi-video-frame"
+					src="https://control.resi.io/webplayer/video.html?id=ae4b050f-68f2-458f-834e-bd578c9b51d3"
+					style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"
+				>
+				</iframe>
+			</div>
+			<script
+				defer
+				type="text/javascript"
+				src="https://control.resi.io/webplayer/page.min.js"
+			></script> -->
 		</div>
 	</section>
 	<!-- /**********/ EVENTS SECTION /**********/ -->
@@ -325,7 +339,9 @@
 				You can give by cash or check in any of our services or at our church office throughout the week.
 			</p>
 		</div>
-		<div class="flex-col justify-center items-center px-4 mx-auto mb-16 space-y-8 w-full text-center md:w-1/3">
+		<div
+			class="flex-col justify-center items-center px-4 mx-auto mb-16 space-y-8 w-full text-center md:w-1/3"
+		>
 			<h4 class="text-xl font-semibold text-center">Ways to give</h4>
 			<div class="flex items-center p-6 rounded-lg border-2 border-gray-800">
 				<div class="flex justify-center items-center p-2 w-10 h-10 bg-gray-800 rounded-full">
