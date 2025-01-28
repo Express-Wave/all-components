@@ -8,8 +8,8 @@
 
 <header class="bg-white shadow-md">
   <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-    <!-- Logo -->
-    <a href="/" class="text-xl font-bold text-gray-800">Logistip</a>
+    <!-- Logo (Visible outside of mobile nav) -->
+    <a href="/" class="text-xl font-bold text-gray-800 md:block">Logistip</a>
 
     <!-- Navigation Button for Mobile -->
     <button class="md:hidden p-2 text-gray-800" on:click={toggleNav}>
@@ -27,6 +27,11 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
+      {/if}
+
+      <!-- Logo (Visible inside mobile nav) -->
+      {#if isNavOpen}
+        <a href="/" class="text-xl font-bold text-gray-800 mb-4">Logistip</a>
       {/if}
 
       <a href="/" class="block py-2 px-4 text-gray-800 hover:bg-gray-200 md:hover:bg-transparent md:hover:text-gray-600">Home</a>
