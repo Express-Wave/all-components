@@ -19,7 +19,7 @@
     </button>
 
     <!-- Navigation Links -->
-    <nav class={`${isNavOpen ? 'fixed inset-0 bg-white z-50 flex flex-col items-center justify-center' : 'hidden'} md:flex md:items-center md:space-x-6`}>
+    <nav class={`${isNavOpen ? 'fixed inset-0 bg-white z-50 flex flex-col items-start justify-start pt-16 pl-4' : 'hidden'} md:flex md:items-center md:space-x-6`}>
       <!-- Cancel Button for Mobile -->
       {#if isNavOpen}
         <button class="absolute top-4 right-4 p-2 text-gray-800" on:click={toggleNav}>
