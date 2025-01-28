@@ -1,9 +1,21 @@
 <script>
+  import { onMount, onDestroy } from 'svelte';
+
   let isNavOpen = false;
 
   function toggleNav() {
     isNavOpen = !isNavOpen;
+    if (isNavOpen) {
+      document.body.classList.add('overflow-hidden');
+    } else {
+      document.body.classList.remove('overflow-hidden');
+    }
   }
+
+  onDestroy(() => {
+    // Ensure the overflow is reset when the component is destroyed
+    document.body.classList.remove('overflow-hidden');
+  });
 </script>
 
 <header class="bg-white shadow-md">
@@ -40,4 +52,7 @@
 
 <style>
   /* Add any custom styles here */
+  .overflow-hidden {
+    overflow: hidden;
+  }
 </style>
