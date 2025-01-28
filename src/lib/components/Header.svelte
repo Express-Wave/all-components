@@ -19,23 +19,22 @@
     </button>
 
     <!-- Navigation Links -->
-    <div class={`${isNavOpen ? 'fixed inset-0 bg-white z-50' : 'hidden'} md:flex md:items-center md:space-x-6`}>
-      <!-- Cancel Button -->
-      <button class="absolute top-4 right-4 p-2 text-gray-800 md:hidden" on:click={toggleNav}>
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-        </svg>
-      </button>
+    <nav class={`${isNavOpen ? 'fixed inset-0 bg-white z-50 flex flex-col items-center justify-center' : 'hidden'} md:flex md:items-center md:space-x-6`}>
+      <!-- Cancel Button for Mobile -->
+      {#if isNavOpen}
+        <button class="absolute top-4 right-4 p-2 text-gray-800" on:click={toggleNav}>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      {/if}
 
-      <!-- Navigation Links -->
-      <nav class="flex flex-col items-center justify-center h-full">
-        <a href="/" class="block py-4 text-xl text-gray-800 hover:text-gray-600">Home</a>
-        <a href="/about" class="block py-4 text-xl text-gray-800 hover:text-gray-600">About Us</a>
-        <a href="/services" class="block py-4 text-xl text-gray-800 hover:text-gray-600">Services</a>
-        <a href="/contact" class="block py-4 text-xl text-gray-800 hover:text-gray-600">Contact</a>
-        <a href="/tracking" class="block py-4 text-xl text-gray-800 hover:text-gray-600">Tracking</a>
-      </nav>
-    </div>
+      <a href="/" class="block py-2 px-4 text-gray-800 hover:bg-gray-200 md:hover:bg-transparent md:hover:text-gray-600">Home</a>
+      <a href="/about" class="block py-2 px-4 text-gray-800 hover:bg-gray-200 md:hover:bg-transparent md:hover:text-gray-600">About Us</a>
+      <a href="/services" class="block py-2 px-4 text-gray-800 hover:bg-gray-200 md:hover:bg-transparent md:hover:text-gray-600">Services</a>
+      <a href="/contact" class="block py-2 px-4 text-gray-800 hover:bg-gray-200 md:hover:bg-transparent md:hover:text-gray-600">Contact</a>
+      <a href="/tracking" class="block py-2 px-4 text-gray-800 hover:bg-gray-200 md:hover:bg-transparent md:hover:text-gray-600">Tracking</a>
+    </nav>
   </div>
 </header>
 
