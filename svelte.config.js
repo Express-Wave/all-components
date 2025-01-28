@@ -8,7 +8,7 @@ const config = {
 	kit: {
 		adapter: adapter({
 			fallback: 'index.html',
-			runtime: 'nodejs18.x' // or 'nodejs20.x'
+			runtime: 'nodejs20.x' // Use nodejs20.x or nodejs18.x
 		}),
 		prerender: {
 			entries: ['*']
