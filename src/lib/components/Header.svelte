@@ -8,9 +8,6 @@
 
 <header class="bg-white shadow-md">
   <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-    <!-- Logo -->
-    <a href="/" class="text-xl font-bold text-gray-800">Logistip</a>
-
     <!-- Navigation Button for Mobile -->
     <button class="md:hidden p-2 text-gray-800" on:click={toggleNav}>
       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -19,7 +16,10 @@
     </button>
 
     <!-- Navigation Links -->
-    <nav class={`${isNavOpen ? 'fixed inset-0 bg-white z-50 flex flex-col items-start justify-start pt-16 pl-4' : 'hidden'} md:flex md:items-center md:space-x-6`}>
+    <nav class={`${isNavOpen ? 'fixed inset-0 bg-white z-50 flex flex-col items-start justify-start pt-16 pl-4 space-y-4' : 'hidden'} md:flex md:items-center md:space-x-6`}>
+      <!-- Logo (inside nav) -->
+      <a href="/" class="text-xl font-bold text-gray-800 mb-4">Logistip</a>
+
       <!-- Cancel Button for Mobile -->
       {#if isNavOpen}
         <button class="absolute top-4 right-4 p-2 text-gray-800" on:click={toggleNav}>
@@ -37,7 +37,3 @@
     </nav>
   </div>
 </header>
-
-<style>
-  /* Add any custom styles here */
-</style>
